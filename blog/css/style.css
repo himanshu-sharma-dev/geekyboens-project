@@ -193,7 +193,7 @@ ul{
 }
 .popular-post-wrap  .post-wrap{
   display: flex;
-  margin-top:85px;
+  margin-top:70px;
 }
 .post-wrap .post-common-img{
   width:100%;
@@ -216,7 +216,7 @@ ul{
 
 .recent-post{
   position: relative;
-  margin-top:70px;
+  margin-top:60px;
 }
 .recent-post h3{
   color:#151D41;
@@ -231,7 +231,7 @@ ul{
   background-color:#FF4030;
 }
 .recent-post ul{
-  margin-top:70px;
+  margin-top:60px;
 }
 .recent-post ul li{
   margin-top:13px;
@@ -246,7 +246,7 @@ ul{
 }
 
 .right-side .contect-wrap{
-  margin-top:70px;
+  margin-top:60px;
 }
 .common-input-wrap .contact-form-control{
   margin-top:30px;
@@ -292,3 +292,12 @@ ul{
   margin-top:25px;
 }
 /* blog list section css end here */
+
+/* media query start here*/
+@media screen and (max-width:1400px){}
+@media screen and (max-width:1199px){}
+@media screen and (max-width:991px){}
+@media screen and (max-width:768px){}
+@media screen and (max-width:576px){}
+
+/* media query end here*/
