@@ -1,0 +1,397 @@
+*{
+    padding:0;
+    margin:0;   
+}
+/* common css */
+
+
+.banner-btn {
+    height: 50px;
+    width: 150px;
+    border: none;
+    outline: none;
+    font-size: 17px;
+    border-radius: 4px;
+    color: #FFFFFF;
+    position: relative;
+    z-index: 1;
+    margin-top:30px;
+    background-color: #FF4030;
+  }
+ .banner-btn:hover {
+    color:#FF4030;
+  }
+ .banner-btn::before {
+    transition: 0.5s all ease;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    right: 50%;
+    bottom: 0;
+    opacity: 0;
+    background-color: #FFFFFF;
+    color:#FFFFFF !important;
+    content: "";
+    border-radius: 4px;
+  }
+ .banner-btn:hover:before {
+    transition: 0.5s all ease;
+    left: 0;
+    right: 0;
+    opacity: 1;
+    z-index: -1;
+  }
+  .common-heading h2{
+      color:#151D41;
+      font-size: 40px;
+      font-weight: 800;
+      text-align: center;
+  }
+  .common-heading h2 span{
+      color:#FF4030;
+  }
+  .common-heading p{
+      color:#646464;
+      font-size: 20px;
+      text-align: center;
+      margin-top:20px;
+  }
+/* common css end here */
+
+
+
+/* contact form sec css start here */
+.contact-form-sec{
+    margin-top:50px;
+}
+.common-input-wrap .contact-form-control{
+    margin-top:30px;
+    height: 50px;
+}
+
+.common-input-wrap .contact-form-control:hover{
+    border:2px solid #151D41;
+}
+ .common-input-wrap .contact-form-control:focus{
+    color: #212529;
+    background-color: #fff;
+    border-color:#646464;
+    outline: 0;
+    box-shadow: none;
+}
+ .common-input-wrap .text-area{
+    height:130px;
+}
+ .contact-first-col .form-wrap {
+    padding: 20px 50px;
+    background-color: #f4f6f8;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px  rgb(21 29 65);
+}
+.contact-second-col iframe{
+    width:100%;
+    height:100%;
+    border-radius: 10px;
+}
+.contact-form-sec .contact-row{
+    margin-top:40px;
+}
+/* contact form sec css end here */
+
+  /* lets-chet-sec css start here */
+  .lets-chet-sec {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/jpeg/white-dress-2.jpg);
+   
+      /* background-image: url(../images/jpeg/wood.jpeg); */
+    margin-top:50px;
+    padding:30px;
+    background-repeat: no-repeat;
+    background-size: cover;      
+}
+.let-chat-heading{
+    margin-top:60px;
+}
+.lets-chet-row .massanger-wrap{
+  text-align: center;
+  padding: 60px 10px 10px 10px;
+  position: relative;
+  transition: all 1s;
+  min-height: 140px;
+  width:80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+.massanger-wrap p{
+  color:#FFF;
+  font-size: 16px;
+  font-weight: bold;
+  transition: all 2s;
+}
+.lets-chet-row .massanger-wrap:hover .lets-go-common-desc{
+  margin-top: 20px;
+}
+
+.social-common-wrap-border  .social-common {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: #FF4030;
+  width: 90px;
+  height: 90px;
+  border-radius: 100%;
+  padding: 20px;
+  transition: all 1s;
+  border: 7px solid #f4f6f8;
+}
+.massanger-wrap .social-common-wrap-border {
+  width: 110px;
+  height: 110px;
+  position: absolute;
+  border-radius: 100%;
+  background-color: transparent;
+  top: -54px;
+  left:70px;
+  transition: all 1s;
+}
+
+.lets-chet-row .massanger-wrap:hover .social-common-wrap-border{
+  background-color: #FF4030;
+  transform: scale(1.1);
+}
+.social-common .let-common-social-img{
+    width:100%;
+    
+}
+.lets-chet-row .massanger-wrap:hover .social-common{
+  transform: rotate(360deg);
+}
+.lets-chet-sec .lets-chet-row{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 80px;
+}
+
+.lets-chet-row  .massanger-wrap:hover{
+  transform:scale(1.1);
+}
+/* lets-chet-sec css end here */
+
+/* ready-to-talk-sec css start here */
+.ready-to-talk-sec{
+    background-color: #f4f6f8;
+    padding:50px;
+}
+.ready-to-talk-sec .ready-sec-common-col {
+    padding: 30px;
+    box-shadow: 0 2px 10px #00000099;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 217px;
+}
+.ready-to-talk-sec .ready-sec-common-col:hover{
+    background-color:#FF4030;
+}
+.ready-to-talk-sec .ready-sec-common-col:hover .fa-common-wrap {
+    background-color: #fff;
+}
+
+.ready-to-talk-sec .ready-sec-common-col:hover .fa-common-wrap .fa{
+    color:#FF4030;
+}
+.ready-to-talk-sec .ready-sec-common-col:hover p{
+    color:#FFF;
+   
+}
+.ready-sec-common-col p{
+    font-size: 18px;
+    color:#646464;
+    text-align: center;
+}
+.ready-sec-common-col .fa-common-wrap {
+    display: flex;
+    justify-content: center;
+    background-color: #151D41;
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.fa-common-wrap .fa{
+    color:#FFF;
+}
+/* ready-to-talk-sec css end here */
+
+/* media query start here */
+@media screen and (max-width:1400px){
+    .ready-sec-common-col p {
+        font-size: 16px;
+        color: #646464;
+        text-align: center;
+    }
+    .massanger-wrap .social-common-wrap-border {
+        top: -45px;
+        left: 46px;
+     }
+}
+@media screen and (max-width:1199px){
+   .ready-to-talk-sec .ready-sec-common-col {
+        min-height: 235px;
+    }
+    .common-heading h2 {
+        font-size: 35px;
+      }
+      .common-heading p {
+        font-size: 18px;
+        margin-top: 10px;
+    }
+    .let-chat-heading {
+        margin-top: 40px;
+    }
+    .massanger-wrap .social-common-wrap-border {
+        top: -40px;
+        left: 28px;
+    }
+    .ready-to-talk-sec {
+        padding: 40px;
+    }
+
+}
+@media screen and (max-width:991px){
+    .ready-to-talk-sec  .social-common-wrap-border {
+        top: -60px;
+        left: 6px;
+    }
+    .common-heading h2 {
+        font-size: 30px;
+    }
+    .contact-form-sec {
+        margin-top: 20px;
+    }
+    .ready-to-talk-sec {
+        padding: 30px;
+    }
+    .ready-sec-common-col p {
+        font-size: 14px;
+    }
+    .common-input-wrap .text-area {
+        height: 80px;
+    }
+    .contact-first-col .form-wrap {
+        padding: 10px 20px;
+    }
+    .massanger-wrap .social-common-wrap-border {
+        left: 6px;
+    }
+  
+}
+@media screen and (max-width:768px){
+    .contact-second-col iframe {
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+        margin-top: 30px;
+    }
+    .let-chat-heading {
+        margin-top: 60px;
+    }
+    .lets-chet-sec {
+        margin-top: 20px;
+      }
+      .social-common-wrap-border {
+        top: -25px;
+        left: 40px;
+    }
+    .massanger-wrap .social-common-wrap-border {
+        width: 85px;
+        height: 85px;
+        left:48px;
+        top:-18px;
+    }
+    .social-common-wrap-border .social-common {
+        top: 7px;
+        left: 7px;
+        width: 70px;
+        height: 70px;
+        padding: 13px;
+        border: 7px solid #f4f6f8;
+    }    
+    
+}
+@media screen and (max-width:576px){
+    .common-input-wrap .contact-form-control {
+        margin-top: 15px;
+        height: 40px;
+    }
+    .contact-first-col .form-wrap {
+        padding: 10px 10px 20px 10px;
+    }
+    .banner-btn {
+        height: 36px;
+        width: 100px;
+        font-size: 14px;
+        margin-top: 20px;
+    }
+    .common-heading p {
+        font-size: 13px;
+        margin-top: 7px;
+    }
+    .contact-form-sec .contact-row {
+        margin-top: 15px;
+    }
+    .common-heading h2 {
+        font-size: 25px;
+    }
+    .common-heading h2 {
+        font-size: 22px;
+    }
+    .massanger-wrap .social-common-wrap-border {
+        position: relative;
+        left:0;
+        top:0;
+        width: 65px;
+        height:65px;
+   
+    }  
+    .lets-chet-row .massanger-wrap {
+        padding: 20px 10px 10px 10px;
+        min-height: 125px;
+        flex-direction: column;
+    }
+    .social-common-wrap-border .social-common {
+        top: 7px;
+        left: 7px;
+        width: 50px;
+        height: 50px;
+        padding: 9px;
+        border: 3px solid #f4f6f8;
+    } 
+    .massanger-wrap p {
+        font-size: 13px;
+       
+    }
+    .lets-chet-sec .lets-chet-row {
+        margin-top: 20px;
+    }
+    .lets-chet-sec {
+        padding: 30px 30px 0 30px;
+    }
+    .ready-to-talk-sec {
+        padding: 20px 0;
+    }
+    .ready-sec-common-col .fa-common-wrap {
+        width: 60px;
+        height: 60px;
+      }
+    
+}
+
+/* media query end here */

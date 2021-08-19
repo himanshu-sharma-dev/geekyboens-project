@@ -1,0 +1,287 @@
+*{
+    padding:0;
+    margin:0;
+}
+/* banner section css tart here */
+.trip-banner-sec{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/jpeg/trip-6.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    padding:300px 0;
+}
+.trip-banner-heading h1{
+    display: flex;
+    justify-content: center;
+    color:#FFFFFF !important;
+    text-align: center;
+}
+/* banner section css end here */
+
+/* group image sec css start here */
+.group-images-sec{
+    margin-top:70px;
+    background-image: url("../images/jpeg/header-bg-half.png");
+    background-repeat: no-repeat;
+    background-size: 65% 84%;
+    background-position: 110% -18%;
+}
+.group-images-sec .group-image-second-sec{
+    background-image:  linear-gradient(rgba(250, 250, 250, 0.7), rgba(250, 250, 250, 0.7)),  url("../images/jpeg/dots-box-1.png");
+    background-repeat: no-repeat;
+    background-size: 28% 40%;
+    background-position: 1% 100%;
+}
+.group-images-sec .group-image-heading{
+    padding:30px 0;
+}
+.group-image-heading h2{
+    color:#FF4030;
+    text-align: center;
+    font-size: 35px;
+}
+.group-image-heading p{
+    color:#545454;
+    text-align: center;
+    font-size: 16px;
+    margin:0 12%;
+}
+
+.group-image-first-sec .common-group-img{
+    width:100%;
+}
+.group-images-sec .group-image-first-sec{
+    height: 100%;
+}
+.group-images-sec .group-image-second-sec{
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.group-images-sec .group-image-second-sec{
+    padding:70px 50px;
+}
+.group-image-second-sec h2{
+    font-size: 40px;
+    text-align: center;
+    color:#FF4030;
+}
+.group-image-second-sec p{
+    font-size: 16px;
+    text-align: center;
+    line-height: 30px;
+    text-align: justify;
+    margin-top:20px;
+}
+.group-images-sec .common-row-wrap{
+    display: flex;
+    flex-direction: row-reverse;
+}
+/* group image sec css end here */
+
+
+/* trip page css start here */
+.trip-gallery-sec {
+    margin-top: 70px;
+    background-image: url("../images/jpeg/header-bg-half.png");
+    background-repeat: no-repeat;
+    background-size: 40% 100%;
+    background-position: 100% 36%;
+    background-color: #f5f6f8;
+    padding:70px 0;
+  }
+  .gallery-wrapper .gallery-heading{
+      padding:0 0 30px 0;
+  }
+  .gallery-heading h2{
+      color:#FF4030;
+      font-size: 35px;
+      text-align: center;
+  }
+ .gallery-heading p{
+    color:#646464;
+    font-size:16px;
+    margin:0 10%;
+    text-align: center;
+} 
+  /* trip css end here  */
+
+  /* trip-video section css start here */
+  .trip-gallery-video-sec{
+      margin-top:70px;
+      padding:20px;
+      background-image: linear-gradient(rgba(250, 250, 250, 0.7), rgba(250, 250, 250, 0.7)), url("../images/jpeg/dots-box-1.png");
+      background-repeat: no-repeat;
+      background-size: 11% 41%;
+      background-position: 88% 0%;
+  }
+  .trip-gallery-heading h2{
+      color:#FF4030;
+      text-align: center;
+  }
+ .trip-gallery-heading p{
+    color:#646464;
+    text-align: center;
+    font-size: 16px;
+    margin:20px 15%;
+}
+  .trip-gallery-video-first-col .first-col-common{
+      margin-top:20px;
+  }
+  .first-col-common .first-col-common-img{
+      width:100%;
+  }
+.video-wraper .video-controls-common{
+    width:100%;
+    margin-top:20px;
+    height:100%;    
+}
+.video-wraper h6{
+    margin-top:20px;
+    color:#FF4030;
+    font-size: 19px;
+}
+.video-wraper p{
+    color:#545454;
+    font-size: 15px;
+}
+
+   /* trip-video section css end here */
+
+   .common{
+    width:100%;
+    margin:10px;
+    position:relative;
+  }
+  .common-img{
+    width:100%;
+      }
+  .overlay{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color:rgba(232, 83, 83, 0.5);
+    overflow: hidden;
+    width: 100%;
+    height:0;
+    transition: .5s ease;
+  }
+  
+  .common:hover .overlay {
+    height: 100%;
+  }
+   .text{
+    color: white;
+    font-size:16px;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .overlay-btn{
+    background-color: transparent;
+    border:1px solid #FFF;
+    padding:10px 30px 10px 30px;
+    color:#FFF;
+    border-radius: 50px 50px 50px 50px;
+  }
+  @media screen and (max-width:1400px){
+    .video-wraper .video-controls-common {
+        width: 100%;
+        margin-top: 10px;
+        height: auto;
+    }
+  }
+  @media screen and (max-width:1199px){
+    .trip-banner-sec {
+        padding: 160px 0;
+    }
+    .group-images-sec .group-image-second-sec {
+        padding: 10px 10px;
+    }
+    .group-image-heading h2, .group-image-second-sec h2, .gallery-heading h2, .trip-gallery-heading h2 {
+       font-size: 30px;
+    }    
+    
+  }
+  @media screen and (max-width:991px){
+     .group-image-heading h2, .group-image-second-sec h2,  .gallery-heading h2, .trip-gallery-heading h2 {
+        font-size: 25px;
+    }
+    .group-images-sec , .trip-gallery-sec , .trip-gallery-video-sec {
+        margin-top: 40px;
+    }    
+    .group-image-second-sec p {
+        font-size: 14px;
+        line-height: 20px;
+        margin-top: 0;
+    }
+    .group-images-sec {
+        background-size: 65% 55%;
+        background-position: 110% 22%;
+    }
+  }
+  @media screen and (max-width:768px){
+    .group-image-heading p , .gallery-heading p, .gallery-heading p, .trip-gallery-heading p {
+        font-size: 14px;
+        margin: 0 0;
+    }
+    .group-image-heading h2, .group-image-second-sec h2, .gallery-heading h2, .trip-gallery-heading h2 {
+        font-size: 22px;
+    }
+    .trip-gallery-sec {
+        padding: 20px 0;
+    }
+
+     .trip-gallery-sec , .trip-gallery-video-sec {
+        margin-top:0;
+    }
+    .group-images-sec{
+        margin-top: 10px;
+    }
+    .group-images-sec .group-image-heading {
+        padding: 10px 0;
+    }
+
+    .group-images-sec, .group-image-second-sec, .trip-gallery-sec, .trip-gallery-video-sec {
+        background-image: none;
+    }
+  }
+  @media screen and (max-width:576px){
+    .trip-banner-sec {
+        padding: 100px 0;
+    }
+    .trip-banner-heading h1 {
+       font-size: 20px;
+    }
+    .group-image-heading h2, .group-image-second-sec h2, .gallery-heading h2, .trip-gallery-heading h2 {
+        font-size: 19px;
+    }
+    .group-image-heading p, .gallery-heading p, .gallery-heading p, .trip-gallery-heading p, .video-wraper p {
+        
+        font-size: 13px;
+        text-align: justify;
+      }
+      .group-image-second-sec p {
+        font-size: 13px;
+    }
+    .group-images-sec .group-image-heading {
+        padding: 0 0 10px 0;
+    }
+    .trip-gallery-sec {
+        padding: 10px 0;
+    }
+    .gallery-wrapper .gallery-heading {
+        padding: 0 0 10px 0;
+    }
+    .video-wraper h6 {
+        margin-top: 10px;
+        font-size: 16px;
+    }
+    .trip-gallery-video-sec {
+        padding: 10px;
+     }
+  }

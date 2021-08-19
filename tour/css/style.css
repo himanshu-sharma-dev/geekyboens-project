@@ -1,0 +1,766 @@
+*{
+    padding:0;
+    margin:0;
+}
+ul
+{
+    padding:0px;
+    margin:0px;
+    list-style-type: none;
+}
+button{
+    border:none;
+    outline:none;
+}
+
+/* details page css start here */
+/* dawhoused sec css start here */
+.header-top-dawghoused-sec{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/jpeg/trip-6.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.common-heading h2{
+  color:#FF4030;
+  font-size: 35px;
+  margin-bottom:50px;
+}
+.header-top-dawghoused-sec h2{
+  text-align: center;
+  padding:150px 0;
+  color:#FFF;
+  font-size:40px;
+}
+/* dawhoused sec css end  here */
+
+/* dawghouse solution css start here */
+.dawghouse-solution-sec{
+  margin-top:70px;
+}
+.dawghouse-solution-first-col .dawghouse-logo-img{
+  width:70%;
+  height:auto;
+}
+.dawghouse-solution-wrap .dawghouse-solution-second-col{
+  border-left:1px solid #e8e7e7;
+  padding-left:50px;
+}
+.dawghouse-solution-wrap .dawghouse-solution-first-col{
+  height:192px;
+  display: flex;
+  justify-content: flex-end;
+}
+.dawghouse-solution-second-col .domain-wrap-common{
+  box-shadow: 0px 3px 3px #ece6e699;
+  padding:20px;
+  width:40%;
+  border:1px solid #efefef ;
+  height: 57%;
+}
+.common-food-app-img-wrap .common-food-app-img{
+  width:60px;
+  height:60px;
+  margin-bottom:15px;
+}
+.dawghouse-solution-second-col .app-name-wrap{
+  margin-left:20px;
+}
+/* dawghouse solution css end here */
+ 
+/* tech stach css start here */
+.tech-stack-sec{
+  margin-top:70px;
+  background-image: url("../images/png/dots-box-1.png");
+  background-repeat: no-repeat;
+  background-size: 12% 70% ;
+  background-position: 90% 0%;
+}
+.tech-stack-sec .tech-stack-first-col{
+  background-color: #FF4030;
+  color: #FFF;
+  padding:50px;
+  height:100%;
+  border-radius: 10px 0px 0px 10px;
+}
+.tech-stack-first-col ul{
+  list-style-type: disc;
+  margin-top:30px;
+}
+.tech-stack-first-col ul li{
+  margin-top:20px;
+}
+.tech-stack-sec .tech-stack-second-col{
+  background-color:#efefef;
+  color:#343434;
+  padding:50px;
+  height: 100%;
+  border-radius: 0px 10px 10px 0px;
+}
+.tech-stack-second-col ul{
+  list-style-type: disc;
+  margin-top:30px;
+}
+.tech-stack-second-col ul li{
+  margin-top:20px;
+}
+/* tech stack css end here */
+
+/* download sec css start here */
+.download-app-sec {
+  background-image: url("../images/png/header-bg-half.png");
+  background-repeat:no-repeat;
+  background-size: 50% 100%;
+  background-position: 100% 50%;
+  margin-top:110px;
+}
+.download-sec-second-col ul{
+    list-style-type: disc;
+    margin-top:10px;
+}
+.download-sec-second-col ul li{
+    margin-top:10px;
+    }
+.download-sec-first-col .download-app-mobile-img{
+  width:45%;
+  border-radius: 10px;
+  height:auto;
+}
+.download-app-sec .download-sec-first-col{
+  height:100%;
+  display: flex;
+  justify-content: center;
+} 
+.download-app-sec .download-sec-second-col{
+  height:100%;
+} 
+.download-sec-second-col  p{
+  color:#4e4e4e;
+  margin-top:40px;
+}
+
+.download-common-btn {
+  font:20px;
+  display: inline-block;
+  padding: 15px 30px;
+  text-align: center;
+  border-radius: 10px;
+  color: white;
+  background:#FF4030; 
+  background: linear-gradient(to left, #FF4030 50%, #151D41 50%) right;
+  background-size: 200%;
+  transition: .5s ease-out;
+  margin-top:60px;
+}
+.download-common-btn:focus{
+  border:none;
+  outline:none;
+}
+.download-common-btn:hover {
+  background-position: left;
+}
+.download-common-btn a{
+  text-decoration: none;
+  color:#FFF;
+}
+/* download sec css end here */
+
+/* result sec css style start  here */
+.result-sec{
+  margin-top:70px;
+}
+.result-sec-heading p{
+  color:#4e4e4e;
+}
+.slider .common-main-dev{
+  width:100%;
+  margin:0 10px;
+  border: solid 1px #dcdbdb;
+    padding: 15px;
+}
+.common-main-dev .details-slider-common-img{
+  width:100%;
+  height:500px;
+}
+.slider-next-pre-btn .pp2{
+width:50px;
+height:50px;
+border-radius:50%;
+background-color:transparent;
+position:absolute;
+left:0%;
+top:36%;
+border:none;
+outline:none;
+}
+.slider-next-pre-btn .nn2{
+width:50px;
+height:50px;
+border-radius:50%;
+background-color:transparent;
+position:absolute;
+right:0%;
+top:36%;
+border:none;
+outline:none;
+}
+.slider-next-pre-btn .nn2:focus , .slider-next-pre-btn .pp2:focus{
+outline:none;
+border:none;
+}
+.slich-slider-sec{
+position:relative;
+margin-top:40px;
+}
+.slich-slider-sec .slick-slide {
+display: none;
+float: left;
+height: 60%;
+min-height: 1px;
+}
+.slider-next-pre-btn .common-arrow{
+  width:20px;
+}
+.common-main-dev .slick-slide .slick-active:focus {
+  outline:none;
+}
+/* result sec  css end here */
+
+/* let talk sec css start here */
+.let-talk-about-us-sec{
+   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/jpeg/laptop-bg.jpg);
+   background-repeat: no-repeat;
+  background-size: cover;
+  padding:50px 0;
+  margin-top:70px;
+}
+.let-talk-about-us-sec .let-talk-about-wrap{
+  background-color: #00000038;
+  padding: 30px 50px;
+}
+.let-talk-about-us-heading h2{
+  color:#FFFFFF;
+  margin-bottom: 40px;
+}
+.common-form-wraper .form-control-let-talk-sec {
+  display: block;
+  border-radius:10;
+  border:none;
+  margin-bottom: 35px;
+  height: 45px;
+  width:100%;
+}
+.form-wraper .form-check-sgl{
+  padding:0 36px;
+}
+.common-form-wraper .form-control-let-talk-sec:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: #FF4030;
+    outline: 0; 
+    box-shadow: none;
+}
+.common-form-wraper  .left-takl-lable-common{
+  margin-bottom: 20px;
+  color:#FFFFFF;
+}
+.form-check .lable-check-list{
+  color:#FFFFFF;
+}
+.form-check .form-check-input-common:checked {
+  background-color: #FF4030;
+  border-color: #FF4030;
+  box-shadow: none;
+}
+.radio-btn-let-talk-sec .form-check-common-lt{
+  margin-left:14px;
+}
+
+.send-btn-wraper .let-from-sec-btn{
+  font:20px;
+  display: inline-block;
+  padding: 1em 2em;
+  text-align: center;
+  border-radius: 10px;
+  color: white;
+  background:#FF4030; 
+  background: linear-gradient(to left, #FF4030 50%, #151D41 50%) right;
+  background-size: 200%;
+  transition: .5s ease-out;
+  margin-top:24px;
+}
+.send-btn-wraper .let-from-sec-btn:focus{
+  border:none;
+  outline:none;
+}
+.send-btn-wraper .let-from-sec-btn:hover {
+  background-position: left;
+}
+/* let talk sec css end here */
+
+/* frame-sdk sec css start here */
+
+.frame-sdk-wrap{
+  padding:60px 0;
+  margin-top:50px;
+  background-image: url('../images/jpeg/black-bg-smok.jpg');
+  background-repeat: no-repeat;
+  background-size: fill;
+}
+.fram-sdk-heading  h2{
+  font-size: 35px;
+  color:#FFFFFF;
+}
+
+.framwork-red-common{
+  background-color:transparent;
+  padding:20px;
+  margin-top:20px;
+  color:#FFF;
+  border-radius: 10px;
+  min-height:107px;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ border:1px solid;
+}
+.framwork-red-common p,.framwork-grey-common p{
+  margin-bottom:0 !important;
+ }
+
+.fram-sdk-sec{
+  padding:50px 35px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/png/laptop-bg-2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color:#FFFFFF;
+  margin-top:50px;
+}
+.fram-sdk-common-col h6{
+  font-size: 20px;
+  color:#FFFFFF;
+}
+.fram-sdk-common-col p{
+  font-size: 16px;
+}
+.fram-sdk-sec  .fram-sdk-common-col {
+    margin-top: 20px;
+}
+.fram-sdk-common-col .yes-icon-common-img{
+  width:20px;
+  margin-right:10px;
+}
+.fram-sdk-common-col p{
+  margin-bottom: 0;
+}
+.fram-sdk-sec  .common-btn {
+  position: relative;
+  width: 100%;
+  border-radius: 10px;
+  padding: 12px 27px;
+  text-align: center;
+  font-size: 16px;
+  background:transparent;
+  border:1px solid;
+  min-height:115px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.fram-sdk-sec .common-btn.btn-border::after,
+.fram-sdk-sec .common-btn.btn-border::before {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 0;
+  transition: .5s;
+}
+.fram-sdk-sec .common-btn.btn-border::after {
+  top: -9px;
+  left: -9px;
+  border-top: 3px solid transparent;
+  border-left: 3px solid transparent;
+}
+
+.fram-sdk-sec .common-btn.btn-border::before {
+  bottom: -9px;
+  right: -9px;
+  border-bottom: 3px solid transparent;
+  border-right: 3px solid transparent;
+}
+.fram-sdk-sec .common-btn.btn-border:hover {
+  color: #FFFFFF;
+}
+.fram-sdk-sec .common-btn.btn-border:hover::after,
+.fram-sdk-sec .common-btn.btn-border:hover::before {
+  width: calc(100% + 17px);
+  height: calc(100% + 17px);
+  border-color: #FF4030;
+  border-radius: 10px;
+}
+
+.fram-sdk-sec .technology-wrapper-btn a,.technology-wrapper-btn a:hover{
+  color:#FFFFFF;
+  text-decoration: none;
+}
+
+/* frame-sdk sec css end here */
+
+/* details page media query start here */
+@media screen and (max-width:1440px){
+ .dawghouse-solution-second-col  .domain-wrap-common {
+      height: 70%;
+}
+}
+@media screen and (max-width:1199px){
+  .dawghouse-solution-second-col .domain-wrap-common {
+    height: 83%;
+}
+.common-main-dev .details-slider-common-img {
+   height: 450px;
+}
+.download-app-sec, .dawghouse-solution-sec, .tech-stack-sec, .result-sec,.fram-sdk-sec, .let-talk-about-us-sec  {
+  margin-top: 50px;
+}
+.common-heading h2 {
+  margin-bottom: 30px;
+}
+}
+@media screen and (max-width:991px){
+  .dawghouse-solution-second-col .domain-wrap-common {
+    width: 50%;
+    height:100%;
+}
+.common-main-dev .details-slider-common-img {
+  height: 250px;
+  object-fit: cover;
+}
+.slider-next-pre-btn .nn2, .slider-next-pre-btn .pp2{
+  top: 21%;
+}
+.tech-stack-sec {
+  margin-top: 50px;
+}
+.download-sec-first-col .download-app-mobile-img {
+  width: 90%!important;
+  height:auto;
+}
+.download-sec-second-col ul li {
+  margin-top: 5px;
+}
+.dawghouse-solution-first-col .dawghouse-logo-img {
+  width: 100%;
+  height: auto;
+}
+
+.download-app-sec, .dawghouse-solution-sec, .tech-stack-sec , .result-sec ,.fram-sdk-sec, .let-talk-about-us-sec{
+  margin-top: 30px;
+}
+.common-heading h2 {
+  margin-bottom: 25px;
+  font-size: 30px;
+}
+.fram-sdk-common-col h6 {
+  font-size: 17px;
+}
+.fram-sdk-sec .common-btn {
+  padding: 12px 20px;
+}
+.fram-sdk-common-col p {
+  font-size: 14px;
+}
+.let-talk-about-us-sec .let-talk-about-wrap {
+  background-color: #00000038;
+  padding: 20px 25px;
+}
+.let-talk-about-us-sec {
+  padding: 25px 0;
+}
+.send-btn-wraper .let-from-sec-btn {
+  padding: 10px 20px;
+}
+.common-form-wraper .form-control-let-talk-sec {
+  margin-bottom: 30px;
+  height: 35px;
+}
+.form-wraper .form-check-sgl {
+  padding: 15px 40px;
+}
+}
+@media screen and (max-width:768px){
+  .dawghouse-solution-sec {
+    margin-top: 35px;
+}
+.header-top-dawghoused-sec h2 {
+  padding: 100px 0;
+  font-size: 30px;
+}
+.tech-stack-sec , .download-app-sec {
+  background-image:none;
+ }
+ .fram-sdk-heading h2 {
+  font-size: 25px;
+}
+.fram-sdk-sec {
+  padding: 20px 10px;
+}
+.domain-content-common h5{
+  font-size: 16px;
+}
+.dawghouse-solution-wrap .dawghouse-solution-first-col {
+  height: 182px;
+ }
+.domain-content-common p{
+  font-size:14px;
+}
+.dawghouse-solution-wrap .dawghouse-solution-second-col {
+  padding-left: 10px;
+}
+.download-sec-first-col .download-app-mobile-img {
+  width: 55%!important;
+}
+.download-app-sec .download-sec-second-col {
+  height: 100%;
+  margin-top: 25px;
+  text-align: center;
+}
+.download-common-btn {
+  padding: 8px 20px;
+  margin-top: 20px;
+}
+.download-sec-second-col ul li {
+  font-size: 13px;
+}
+.download-sec-second-col h3{
+  font-size: 20px;
+}
+.common-form-wraper  .left-takl-lable-common {
+  margin-bottom: 5px;
+  color: #FFFFFF;
+}
+.form-wraper .form-check-sgl {
+  padding: 0px 40px;
+}
+.download-sec-second-col ul{
+  list-style-type:none;
+}
+.fram-sdk-sec .common-btn {
+  padding: 10px 10px;
+}
+.common-heading h2 {
+  font-size: 21px;
+  margin-bottom:20px;
+}
+.result-sec {
+  margin-top: 25px;
+}
+.download-app-sec {
+  margin-top: 45px;
+}
+.tech-stack-sec  .tech-stack-first-col {
+  padding: 25px;
+  border-radius: 10px 10px 10px 10px;
+}
+.tech-stack-sec  .tech-stack-second-col {
+  padding: 25px;
+  margin-top:20px;
+  border-radius: 10px 10px 10px 10px;
+}
+.tech-stack-first-col ul li,.tech-stack-second-col ul li {
+  margin-top: 10px;
+}
+.tech-stack-first-col ul {
+  margin-top: 20px;
+}
+.result-sec {
+  margin-top: 35px;
+}
+.common-form-wraper .form-control-let-talk-sec {
+  font-size: 14px;
+  margin-bottom: 30px;
+  width:100%;
+}
+.form-check .lable-check-list{
+  font-size: 14px;
+}
+.framwork-red-common p, .framwork-grey-common p{
+  font-size: 14px;
+}
+
+.framwork-red-common h6, .framwork-grey-common h6{
+  font-size: 16px;
+}
+ .frame-sdk-wrap,.let-talk-about-us-sec,.download-app-sec {
+  margin-top: 25px;
+}
+ .domain-wrap-common p{
+   font-size: 14px;
+ }
+}
+@media screen and (max-width:576px){
+  .dawghouse-solution-sec {
+    margin-top: 25px;
+}
+.header-top-dawghoused-sec h2 {
+  font-size: 30px;
+}
+.dawghouse-solution-second-col .domain-wrap-common {
+  min-height:149px;
+  padding: 10px;
+}
+.dawghouse-solution-wrap .dawghouse-solution-first-col {
+  height: auto; 
+}
+.dawghouse-solution-wrap .dawghouse-solution-second-col {
+  padding-left: 10px;
+  margin-top: 20px;
+}
+.common-food-app-img-wrap .common-food-app-img {
+  width: 40px;
+  height: 40px;
+  margin-bottom: 10px;
+}
+.tech-stack-sec {
+  margin-top: 15px;
+  padding:0px 5px;
+}
+ .dawghouse-solution-sec  .dawghouse-solution-first-col {
+   display: block; 
+   justify-content: flex-start; 
+}
+.dawghouse-solution-first-col .dawghouse-logo-img {
+  width: 100%;
+  height:auto;
+}
+.dawghouse-solution-sec  .dawghouse-solution-second-col {
+  border-left:none;
+  padding-left: 0px;
+  height: 100%;
+  margin-top: 20px;
+}
+.common-main-dev .details-slider-common-img {
+  height:auto;
+  object-fit: contain;
+}
+.download-sec-first-col .download-app-mobile-img {
+  width: 80%!important;
+  height: auto;
+}
+.frame-sdk-wrap {
+  margin-top: 20px;
+}
+.common-form-wraper .form-control-let-talk-sec {
+  margin-bottom: 30px;
+}
+.let-talk-about-us-sec .form-wraper {
+  padding: 10px 5px 20px 5px;
+}
+.common-heading h2 {
+  font-size: 20px;
+  margin-bottom:10px;
+}
+.tech-stack-sec .tech-stack-first-col, .tech-stack-sec .tech-stack-second-col {
+  padding: 15px 10px 15px 20px;
+  border-radius: 5px 5px 5px 5px;
+}
+.tech-stack-first-col ul,.tech-stack-second-col ul {
+  margin-top: 15px;
+}
+.tech-stack-first-col h3,.tech-stack-second-col h3{
+font-size:16px;
+}
+.slich-slider-sec {
+  margin-top: 20px;
+}
+.slider-next-pre-btn .nn2, .slider-next-pre-btn  .pp2 {
+  top: 30%;
+}
+.slider .common-main-dev {
+  padding: 0px 0px;
+}
+.domain-wrap-common h5{
+  font-size: 14px;
+ }
+.domain-wrap-common p{
+  font-size:13px;
+}
+.tech-stack-first-col ul li,.tech-stack-second-col ul li,.download-sec-second-col {
+  font-size: 13px;
+}
+.download-app-sec {
+  margin-top: 20px;
+}
+
+.common-form-wraper .form-control-let-talk-sec {
+  font-size: 12px;
+  margin-bottom:20px;
+}
+.form-check  .lable-check-list {
+  font-size: 13px;
+}
+.let-talk-about-us-sec {
+  margin-top:20px;
+  margin-bottom: 10px;
+}
+.result-sec-heading p {
+  color: #4e4e4e;
+  font-size: 13px;
+}
+.download-sec-second-col {
+  margin-top: 15px;
+ }
+ .download-app-sec .dawghouse-solution-first-col {
+  height: 100%;
+}
+.fram-sdk-heading h2 {
+  font-size: 20px;
+}
+.fram-sdk-common-col h6 {
+  font-size: 15px;
+}
+.fram-sdk-common-col p {
+  font-size: 13px;
+}
+.fram-sdk-sec {
+  padding: 10px 0 20px 0;
+}
+.fram-sdk-sec .common-btn {
+  padding: 10px 5px;
+}
+.fram-sdk-heading h2 {
+  font-size: 22px;
+  color: #FFFFFF;
+}
+.fram-sdk-sec .common-btn {
+  padding: 10px 7px;
+  min-height:125px;
+}
+.let-talk-about-us-sec {
+  padding:0 0;
+}
+.let-talk-about-us-heading h2 {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+.let-talk-about-us-sec .let-talk-about-wrap {
+  padding: 10px 0px;
+}
+.send-btn-wraper .let-from-sec-btn {
+  padding: 7px 20px;
+  margin-top:20px;
+}
+.common-form-wraper .left-takl-lable-common {
+  font-size: 14px;
+}
+.common-from-wraper-2{
+  margin-top:15px;
+}
+
+
+}
+/* details page media query start here */
+/* details page css end here here */
+
+

@@ -1,0 +1,846 @@
+*{
+    padding:0;
+    margin:0;
+}
+button, button:focus{
+    border:none;
+    outline:none;
+}
+/* mobile service app common css start here */
+.mobile-app-service-sec{
+    background-image: url(../images/png/book-grip.png);
+    background-repeat: no-repeat;
+    background-size: 2% 87%;
+    background-position: 50% 100%;
+}
+.mobile-service-common-heading h2{
+    font-size: 40px;
+    font-weight: 900;
+    text-align: center;
+    color:#151D41;
+    margin-bottom: 30px;
+}
+.mobile-service-common-heading p{
+    font-size: 18px;
+    color:#646464;
+    text-align: center;
+}
+.mobile-service-common-heading h2 span{
+    color:#FF4030;
+}
+.mobile-app-service-sec, .mobile-development-company-sec, .mobile-development-sec, .Technology-expert-sec, .we-work-on-industry-sec{
+    margin-top:50px;
+}
+/* mobile service app common css end here */
+
+
+/* mobile-app-service-sec css start here */
+.mobile-app-service-sec .mobile-app-service-first-col{
+    background-color:#f5f6f8;
+    padding:30px;
+    border-radius: 10px 0 0 10px;
+}
+.mobile-app-service-first-col h3 {
+    font-size: 35px;
+    line-height: 50px;
+    color:#151D41;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+.mobile-app-service-first-col .accepted-img{
+    width:30px;
+    height:30px;
+    margin-right: 10px;
+}
+.mobile-app-service-first-col p{
+    font-size: 20px;
+    color:#646464;
+}
+
+.mobile-app-service-first-col .mobile-app-service-btn {
+    height: 50px;
+    width: 150px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    border-radius: 4px;
+    color: #FFFFFF;
+    position: relative;
+    z-index: 1;
+    margin-top:30px;
+    background-color: #FF4030;
+  }
+  .mobile-app-service-first-col .mobile-app-service-btn:hover {
+    color: white;
+  }
+  .mobile-app-service-first-col .mobile-app-service-btn::before {
+    transition: 0.5s all ease;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    right: 50%;
+    bottom: 0;
+    opacity: 0;
+    background-color: #151D41;
+    content: "";
+  }
+  .mobile-app-service-first-col .mobile-app-service-btn:hover:before {
+    transition: 0.5s all ease;
+    left: 0;
+    right: 0;
+    opacity: 1;
+    z-index: -1;
+  }
+
+.mobile-app-service-sec .mobile-app-service-second-col{
+    background-color:#FF4030;
+    padding:30px 80px;
+    border-radius: 0 10px 10px 0;
+}
+.mobile-app-service-second-col h3{
+    font-size: 35px;
+    color:#FFFFFF;
+    font-weight: 800;
+    text-align: center;
+}
+.mobile-app-service-second-col .form-control-mobile-service{
+    height:50px;
+    margin-top:20px;
+}
+.mobile-app-service-second-col .form-control-mobile-service:focus ,.mobile-app-service-second-col .text-area-mobile-service:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: #000;
+    outline: 0;
+    box-shadow:none;
+}
+.mobile-app-service-second-col .text-area-mobile-service{
+    margin-top:20px;
+    height:100px;
+}
+.mobile-app-service-second-col .form-btn{
+    display: flex;
+    justify-content: center;
+}
+
+.form-btn .mobile-app-service-form-btn {
+    height: 50px;
+    width: 150px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    border-radius: 4px;
+    color: #FFFFFF;
+    position: relative;
+    z-index: 1;
+    margin-top:30px;
+    background-color: #151D41;
+  }
+  .form-btn .mobile-app-service-form-btn:hover {
+    color:#FF4030;
+  }
+  .form-btn .mobile-app-service-form-btn::before {
+    transition: 0.5s all ease;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    right: 50%;
+    bottom: 0;
+    opacity: 0;
+    background-color: #FFFFFF;
+    color:#FF4030 !important;
+    content: "";
+  }
+  .form-btn .mobile-app-service-form-btn:hover:before {
+    transition: 0.5s all ease;
+    left: 0;
+    right: 0;
+    opacity: 1;
+    z-index: -1;
+  }
+
+/* mobile-app-service-sec css end here */
+
+
+/*mobile-development-company-sec  */
+.mobile-tab-second-col {
+    padding: 20px 0 35px 0;
+    border-radius: 0 10px 10px 0;
+}
+.mobile-service-nav-item .mobile-service-btn{
+     background-color:#FF4030; 
+    /* background-image: linear-gradient(121deg, #d2044d, #ff5e68) ; */
+    color:#FFFFFF;
+    width:115px;
+    height:90px;
+    margin-left:5px;
+    margin-right:5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:50px 0 0 0;
+}
+.tabs-left-div .nav-pills .nav-link.active,.tabs-left-div .nav-pills .show>.nav-link {
+    color: #646464;
+    background-color: #FFFFFF;
+    border:1px solid #FF4030;
+    margin-left:5px;
+    margin-right:5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:50px 0 0 0;
+}
+.mobile-service-nav-item .iphone-bg{
+    background-image: url(../images/png/iphone-white-icon.png);
+    background-repeat: no-repeat;
+    background-size: 32% 40%;
+    background-position: 50% 25%;
+}
+.mobile-service-nav-item .iphone-bg:hover,.mobile-service-nav-item .iphone-bg:focus,.mobile-service-nav-item .iphone-bg.active{
+    background-image: url(../images/png/cell-phone.png);
+} 
+.mobile-service-nav-item .android-bg{
+    background-image: url(../images/png/android-white.png);
+    background-repeat: no-repeat;
+    background-size: 32% 40%;
+    background-position: 50% 25%;
+}
+.mobile-service-nav-item .ipad-bg{
+    background-image: url(../images/png/ipad-white-icon.png);
+    background-repeat: no-repeat;
+    background-size: 32% 40%;
+    background-position: 50% 25%;
+}
+.mobile-service-nav-item .android-bg:hover, .mobile-service-nav-item .android-bg.active{
+    background-image: url(../images/png/android-logo.png);
+}
+.mobile-service-nav-item .ipad-bg:hover, .mobile-service-nav-item .ipad-bg:focus,.mobile-service-nav-item .ipad-bg.active{
+    background-image: url(../images/png/tablet.png);
+}
+.mobile-service-nav-item .mobile-service-btn:hover {
+    color: #646464;
+    background-color: #FFFFFF;
+    border:1px solid #FF4030;
+    margin-left:5px;
+    margin-right:5px;
+}
+ .mobile-tab-first-col h3{
+     color:#FF4030;
+     font-size: 26px;
+ }
+ 
+ .mobile-tab-first-col p{
+    color:#646464;
+    font-size:16px;
+    text-align: justify;
+} 
+.slider-wrap-row .mobile-tab-first-col {
+    padding: 40px;
+    height:100%;
+    border-radius:10px 0 0 10px;
+}
+/* mobile-development-company-sec */ 
+/* android-app-slider-sec css start here */
+.android-app-slider-sec{
+    padding:70px 0 20px 0;
+}
+ .app-slider-common .mobile-slider-common{
+      width:100%;
+      height:265px;
+      object-fit: cover;
+      border-radius: 10px;
+  }
+  .slider-app .app-slider-common{
+        margin:0px 20px;
+  }
+.android-app-slider-sec .app-slich-pos{
+position:relative;
+}
+.slider-app .slick-slide {
+    display: none;
+    float: left;
+    height:68% !important;
+    min-height: 1px;
+}
+.app-slich-pos .app-pre-btn, .app-slich-pos .app-pre-btn:focus{
+width:50px;
+height:50px;
+border-radius:50%;
+background-color:transparent;
+position:absolute;
+left:14%;
+top:31%;
+border:none;
+outline:none;
+}
+.app-slich-pos .app-next-btn, .app-slich-pos .app-next-btn:focus{
+width:50px;
+height:50px;
+border-radius:50%;
+background-color:transparent;
+position:absolute;
+top:31%;
+right:14%;
+border:none;
+outline:none;
+}
+.app-slich-pos .slider-common-arrow-img{
+    width:30px;
+    opacity: 0.5;
+}
+.app-slich-pos .smart-phone {
+    width: 201px;
+    height:378px;
+    border: 16px black solid;
+    border-top-width: 60px;
+    border-bottom-width: 60px;
+    border-radius: 36px;
+    position: absolute;
+    left: 218px;
+    top: -58px;
+    z-index: 9;
+}
+.smart-phone .smart-phone-speaker{
+    position: absolute;
+    top: -33px;
+    left: 36%;
+    background-color: #252525;
+    width: 50px;
+    height: 7px;
+    border-radius: 10px;
+}
+.smart-phone .smart-phone-btn{
+    position: absolute;
+    background-color: #252525;
+    width: 35px;
+    height:35px;
+    border-radius: 100%;
+    top: 303px;
+    left: 12%;
+}
+.slider-btn-wrap .slider-bottom-btn{
+    height: 50px;
+    width: 150px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    border-radius: 4px;
+    color: #FFFFFF;
+    position: relative;
+    z-index: 1;
+    background-color: #FF4030;
+    margin-top:20px;
+  }
+  .slider-btn-wrap .slider-bottom-btn:hover {
+    color:#FFFFFF;
+  }
+  .slider-btn-wrap .slider-bottom-btn::before {
+    transition: 0.5s all ease;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    right: 50%;
+    bottom: 0;
+    opacity: 0;
+    background-color: #151D41;
+    content: "";
+  }
+  .slider-btn-wrap .slider-bottom-btn:hover:before {
+    transition: 0.5s all ease;
+    left: 0;
+    right: 0;
+    opacity: 1;
+    z-index: -1;
+  }
+
+/* android-app-slider-sec css end here */
+
+/* mobile-development-sec css start here */
+.mobile-development-sec{
+    background-color: #f5f6f8;
+    padding:50px 0;
+}
+.mobile-development-heading h2{
+    color:#151D41;
+    font-size: 40px;
+    font-weight: 900;
+    text-align: center;
+}
+.mobile-development-heading h2 span{
+    color:#FF4030;
+}
+.mobile-development-heading p{
+    font-size: 18px;
+    color:#646464;
+    text-align: center;
+}
+.mobile-development-common-col .mobile-development-common-img{
+    width:50px;
+    height:50px;
+    margin-bottom:10px;
+}
+.mobile-development-common-col h5{
+    color:#151D41;
+    font-size: 21px;
+    padding:0 50px;
+}
+.mobile-development-common-col p{
+    color:#646464;
+    font-size: 16px;
+    padding:0 50px;
+}
+.mobile-development-sec .mobile-development-common-col {
+    text-align: center;
+    margin-top:20px;
+}
+/* mobile-development-sec css end here */
+
+/* Technology-expert-sec css start here */
+.Technology-expert-sec{
+    padding:30px 0;
+}
+.technology-heading h2{
+    color:#151D41;
+    font-size: 40px;
+    font-weight: 900;
+    text-align: center;
+}
+.technology-heading h2 span{
+    color:#FF4030;
+}
+.technology-heading p{
+    font-size: 19px;
+    color:#646464;
+    text-align: center;
+}
+.technology-logo-wraper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.android-img{
+    height:75px !important;
+    width:76%;
+    object-fit: contain;
+}
+
+.technology-logo-wrap .apple-img{
+    height:75px !important;
+    width:50%;
+    object-fit: contain;
+}
+
+.technology-logo-wrap  .ionic-img{
+    height:75px !important;
+    width:50%;
+    object-fit: contain;
+}
+
+.technology-logo-wrap  .flutter-img{
+    height:75px !important;
+    width:50%;
+    object-fit: contain;
+}
+
+.technology-logo-wrap  .react-img{
+    height:75px !important;
+    width:80%;
+    object-fit: contain;
+}
+/* Technology-expert-sec css end here  */
+
+/* we-work-on-industry-sec css start here */
+.we-work-on-industry-sec{
+    padding:50px 0;
+    background-color:#f5f6f8;
+}
+.we-work-industry-heading h2{
+    font-size: 40px;
+    color: #151D41;
+    font-weight: 900;
+    text-align: center;
+}
+.we-work-industry-heading h2 span{
+    color:#FF4030;
+}
+.we-work-industry-heading p{
+    font-size: 19px;
+    color:#646464;
+    padding:0 10%;
+    text-align: center;
+}
+.we-work-on-industry-sec .work-industry-common-col{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 1px 10px #00000099;
+    margin-top:30px;
+    padding:20px 0;
+}
+
+.we-work-on-industry-sec .work-industry-common-col {
+    display: inline-block;
+    padding: 1em 2em;
+    text-align: center;
+    color:#151D41;
+    background: red;
+    background: linear-gradient(to left, #fef4f8 50%, #ff5e68  50%) right;
+    /* background-image: linear-gradient(121deg, #d2044d, #ff5e68); */
+    background-size: 200%;
+    transition: .5s ease-out;
+    border-radius: 10px;
+}
+.we-work-on-industry-sec .work-industry-common-col:hover {
+    background-position: left;
+    color:#FFFFFF;
+}
+.work-industry-common-col .work-industry-common-img{
+    width:30%;
+    object-fit: contain;
+    margin-bottom:10px;
+}
+.work-industry-common-col h5{
+    font-size:20px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.we-work-on-industry-sec .single-security {
+    position: relative;
+    z-index: 1;
+    background-color: #FFF;
+    padding: 30px;
+    margin-bottom: 30px;
+    transition: all 0.5s;
+    min-height: 360px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.single-security  h5{
+    text-align: center;
+    font-size: 20px;
+}
+.we-work-on-industry-sec .digital-market-common{
+    min-height: 200px;
+}
+.we-work-on-industry-sec .single-security:hover {
+    color:#FFFFFF;
+}
+.we-work-on-industry-sec .text-left {
+    text-align: left!important;
+}
+.we-work-on-industry-sec .single-security::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 0;
+    height: 100%;
+    background-image: linear-gradient(to bottom right, #151D41, #151D41);
+    transition: all 0.5s;
+    z-index: -1;
+}
+.we-work-on-industry-sec .single-features::after, .single-security i, .complete-content .single-security::before, .cybersecurity-content ul li::before, .manual-content ul li::before, .transform-content .skill-bar .progress-content, .performance-area .owl-theme .owl-dots .owl-dot.active span, .single-team .image::before, .video-btn, .video-btn::after, .video-btn::before, .single-solutions::after {
+    /* background-image: linear-gradient(to bottom right, #d2044d, #ff5e68); */
+}
+.we-work-on-industry-sec .single-security:hover {
+    -webkit-transform: translateY(-5px);
+    transform: translateY(-5px);
+}
+
+.we-work-on-industry-sec .single-security:hover::before {
+    width: 100%;
+    left: 0;
+    right: auto;
+}
+
+.we-work-on-industry-sec a, .read-more, .read-more:hover, .read-more:hover i, .header-area .top-header-area .header-content-left li:hover a, .header-area .top-header-area .header-content-left li:hover a i, .header-area .top-header-area .header-content-right li:hover a, .header-area .top-header-area .header-content-right li:hover a i, .nav-area .navbar-area .main-nav nav .navbar-nav .nav-item a:hover, .nav-area .navbar-area .main-nav nav .navbar-nav .nav-item .dropdown-menu li a:hover, .nav-area.nav-area-three .navbar-area .main-nav .others-option .call-us a i, .banner-area.banner-area-three .follow-us ul li a i:hover, .features-area .single-features:hover h3, .features-area .single-features:hover h3 i, .single-features h3, .single-features h3 i, .approach-content ul li i, .electronic-content .electronic-tab-wrap .electronic-tab .tabs .current a, .complete-content .single-security:hover i, .single-client .quotes, .single-client ul li i, .client-img span, .cybersecurity-content ul li i, .single-blog:hover span, .footer-bottom-area .copy-right p a:hover, .footer-bottom-area .condition-privacy ul li a:hover, .manual-content ul li i, .single-counter i, .single-counter p, .single-pricing h1, .single-pricing ul li i, .transform-content .skill-bar .down-arrow, .page-title-area .page-title-content ul li a:hover, .page-title-area .page-title-content ul .active, .single-team .content span, .user-area-all-style .contact-form-action form .form-condition .agree-label a, .user-area-all-style .contact-form-action .account-desc a, .user-area-all-style .contact-form-action .forget, .user-area-all-style .contact-form-action .now-register a, .user-area-all-style .contact-form-action .now-log-in, .services-details-info .services-contact-info ul li a:hover, .services-details-info .services-contact-info ul li .icon, .video-btn, .section-title span, .page-navigation-area .page-link, .services-details-info .download-file ul li a:hover, .performance-area .single-security span i, .single-security:hover i, .section-title-six span, .header-area-six .top-header-area .header-content-left li i, .header-area-six .top-header-area .header-content-left li:hover a, .header-area-six .top-header-area .header-content-left li:hover a i, .header-area-six .top-header-area .header-content-right .language-area .language-item-top .language-bar i, .header-area-six .top-header-area .header-content-right .language-area .language-item-top .language-item-bottom .language-item .language-link:hover, .header-area-six .top-header-area .header-content-right .log-in-sign-up li i, .header-area-six .top-header-area .header-content-right .log-in-sign-up li a:hover, .nav-area-six .navbar-area .main-nav nav .navbar-nav .nav-item a:hover, .nav-area-six .navbar-area .main-nav nav .navbar-nav .nav-item .dropdown-menu li a:hover, .nav-area-six .others-option .option-item .search-btn:hover, .nav-area-six .others-option .option-item .close-btn.active, .nav-area-six .others-option .cart-icon .cart i:hover, .nav-area-six .others-option .sidebar-menu .burger-menu, .banner-area-six .banner-text .default-btn.active i, .services-content .services-tab-wrap .services-tab .tabs .current, .single-serve i, .single-counters i, .single-counters h2, .testimonials-item .testimonials-view span, .video-img-six .video-btn i, .single-blog-post-area .blog-content-area ul li i, .single-blog-post-area:hover h3 a, .footer-area .single-footer-widget .address li a:hover, .footer-area .single-footer-widget .address li i, .footer-area .single-footer-widget ul li:hover a, .copy-right-area p a, .copy-right-area .footer-menu li a:hover {
+    color: #000;
+}
+
+.we-work-on-industry-sec .single-security:hover i {
+   background-image: linear-gradient(to bottom right, #ffffff, #ffffff);
+}
+.we-work-on-industry-sec .single-security:hover i ,.single-security.img-quality:hover{
+   transform: rotateY(360deg);
+}
+.we-work-on-industry-sec .single-features::after, .single-security i, .complete-content .single-security::before, .cybersecurity-content ul li::before, .manual-content ul li::before, .transform-content .skill-bar .progress-content, .performance-area .owl-theme .owl-dots .owl-dot.active span, .single-team .image::before, .video-btn, .video-btn::after, .video-btn::before, .single-solutions::after {
+    /* background-image: linear-gradient(to bottom right, #d2044d, #ff5e68); */
+}
+.single-security i {
+    transition: all 0.5s;
+}
+.single-security i {
+    font-size: 30px;
+    color: #ffffff;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    background-color:#FF4030 !important;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    transition: all 0.5s;
+}
+/* we-work-on-industry-sec css end here */
+
+
+/* media query start here */
+@media screen and (max-width:1400px){
+    .app-slich-pos .smart-phone {
+        width: 173px;
+        left: 187px;
+      }
+      .work-industry-common-col h5 {
+        font-size: 18px;
+       }
+}
+@media screen and (max-width:1199px){
+    .mobile-app-service-first-col h3 {
+        font-size: 32px;
+    }
+    .mobile-app-service-second-col h3 {
+        font-size: 32px;
+    }    
+    .mobile-app-service-first-col .mobile-app-service-btn {
+        margin-top: 26px;
+      }
+    .technology-heading h2,.mobile-development-heading h2,.mobile-service-common-heading h2 ,.we-work-industry-heading h2 {
+        font-size: 35px;
+    }
+    .mobile-app-service-sec, .mobile-development-company-sec, .mobile-development-sec, .Technology-expert-sec, .we-work-on-industry-sec {
+        margin-top: 30px;
+    }
+    .mobile-development-sec, .we-work-on-industry-sec  {
+        padding: 30px 0;
+    }
+    .technology-heading p, .mobile-development-heading p ,.we-work-industry-heading p {
+        font-size: 16px;
+    }
+    .mobile-app-service-sec .mobile-app-service-second-col {
+        padding: 30px 40px;
+    }
+    .app-slich-pos .smart-phone {
+        width: 140px;
+        left: 157px;
+    }
+    .we-work-on-industry-sec .work-industry-common-col {
+        padding:20px 0;
+    }
+
+
+    
+}
+@media screen and (max-width:991px){
+    .mobile-app-service-first-col h3 {
+        font-size: 22px;
+        line-height: 35px;
+        margin-bottom: 30px;
+    }
+    .mobile-app-service-first-col p {
+        font-size: 17px;
+    }
+    .mobile-app-service-second-col h3 {
+        font-size: 22px;
+    }
+    .mobile-app-service-second-col .form-control-mobile-service {
+        height: 40px;
+      }
+    .mobile-app-service-sec .mobile-app-service-second-col {
+        padding: 19px 20px;
+    }
+    .mobile-app-service-sec {
+        background-size: 3% 87%;
+        background-position: 50% 105%;
+    }
+    .mobile-app-service-first-col .mobile-app-service-btn , .form-btn .mobile-app-service-form-btn {
+        height: 40px;
+        width: 130px;
+        font-size: 16px;
+    }
+    .technology-heading h2, .mobile-development-heading h2, .mobile-service-common-heading h2, .we-work-industry-heading h2 {
+        font-size: 30px;
+    }
+    .mobile-development-common-col h5 {
+        color: #151D41;
+        font-size: 18px;
+        padding: 0 10px;
+    }
+    .mobile-development-common-col p {
+        font-size: 15px;
+        padding: 0 6px;
+    }
+    .mobile-development-common-col .mobile-development-common-img {
+        width:80px;
+        height: 80px;
+        margin-bottom: 5px;
+    }
+    .app-slich-pos .smart-phone {
+        width: 221px;
+        left: 238px;
+    }
+    .we-work-on-industry-sec .work-industry-common-col {
+        padding: 20px 10px;
+        min-height: 160px;
+    }
+}
+@media screen and (max-width:768px){
+    .mobile-development-common-col h5 {
+        font-size: 15px;
+    }
+    .mobile-development-common-col p {
+        font-size: 13px;
+     }
+     .technology-heading h2, .mobile-development-heading h2, .mobile-service-common-heading h2, .we-work-industry-heading h2 {
+        font-size: 25px;
+    }
+    .technology-heading p, .mobile-development-heading p, .we-work-industry-heading p,.mobile-tab-first-col p ,.mobile-app-service-first-col p {
+        font-size: 13px;
+    }
+    .mobile-app-service-first-col h3 {
+        font-size: 20px;
+        line-height: 30px;
+        margin-bottom: 20px;
+    }
+    .mobile-app-service-first-col .accepted-img {
+        width: 20px;
+        height: 20px;
+        margin-right: 5px;
+    }
+    .mobile-app-service-first-col .mobile-app-service-btn, .form-btn .mobile-app-service-form-btn {
+        height: 35px;
+        width: 100px;
+        margin-top:10px;
+    }
+    .mobile-service-common-heading h2 {
+        margin-bottom: 10px;
+    }
+    .mobile-app-service-second-col .text-area-mobile-service {
+        margin-top: 20px;
+        height: 80px;
+    }
+    .mobile-app-service-first-col .mobile-app-service-btn, .form-btn .mobile-app-service-form-btn {
+        margin-top: 20px;
+    }
+    .Technology-expert-sec {
+        padding: 15px 0;
+    }
+    .mobile-app-service-sec, .mobile-development-company-sec, .mobile-development-sec, .Technology-expert-sec, .we-work-on-industry-sec {
+        margin-top: 20px;
+    }
+    .mobile-development-common-col .mobile-development-common-img {
+        width: 60px;
+        height: 60px;
+        margin-bottom: 5px;
+    }
+    .we-work-on-industry-sec .work-industry-common-col {
+        padding: 10px 10px;
+        min-height: 100px;
+    }
+    .work-industry-common-col .work-industry-common-img {
+        width: 25%;
+        object-fit: contain;
+        margin-bottom: 10px;
+    }
+    .slider-wrap-row .mobile-tab-first-col {
+        padding: 0px;
+      }
+      .slider-btn-wrap .slider-bottom-btn {
+        height: 40px;
+        font-size: 14px !important;
+        width: 110px;
+        margin-top: 0px;
+    }
+    .app-slich-pos .smart-phone {
+        width: 164px;
+        left: 176px;
+    }
+}
+@media screen and (max-width:576px){
+    .technology-heading h2, .mobile-development-heading h2, .mobile-service-common-heading h2, .we-work-industry-heading h2 {
+        font-size: 21px;
+    }
+    .mobile-app-service-first-col h3 {
+        font-size: 16px;
+        line-height: 24px;
+        margin-bottom: 10px;
+    }
+    .mobile-app-service-sec .mobile-app-service-first-col {
+        padding: 10px;
+      }
+     
+    .mobile-app-service-first-col .mobile-app-service-btn, .form-btn .mobile-app-service-form-btn {
+        height: 29px;
+        width: 75px;
+        margin-top: 10px;
+    }
+    .mobile-app-service-first-col .mobile-app-service-btn {
+        margin-top:0;
+    }
+    .mobile-app-service-sec .mobile-app-service-second-col {
+        padding: 10px 5px;
+    }
+    .mobile-app-service-sec .mobile-app-service-second-col {
+        border-radius: 10px 10px 10px 10px;
+        margin-top:20px;
+    }
+    .mobile-app-service-sec .mobile-app-service-first-col {
+        border-radius: 10px 10px 10px 10px;
+    }
+    .mobile-app-service-sec {
+        background-image:none;
+  }
+    .mobile-app-service-second-col .text-area-mobile-service {
+        margin-top: 10px;
+        height: 50px;
+}
+.Technology-expert-sec {
+    padding: 0;
+}
+.technology-logo-wraper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.app-slich-pos .smart-phone {
+    display: none;
+}
+.technology-logo-wrap .android-img,.technology-logo-wrap .apple-img,.technology-logo-wrap .ionic-img,.technology-logo-wrap .flutter-img , .technology-logo-wrap .react-img {
+     width: 100%;
+     margin-top:10px;
+}
+.technology-logo-wrap .ionic-img,.technology-logo-wrap .flutter-img {
+    height: 50px !important;
+
+}
+.tabs-left-div .mobile-service-nav-item {
+    margin-top: 10px;
+}
+.single-security h5 {
+    text-align: center;
+    font-size: 14px;
+}
+.we-work-on-industry-sec .digital-market-common {
+    min-height: 140px;
+}
+.mobile-development-sec, .we-work-on-industry-sec {
+    padding: 10px 0;
+}
+.we-work-industry-heading p {
+    padding: 0 ;
+}
+.we-work-on-industry-sec .single-security {
+    padding:10px;
+}
+
+}
+
+/* media query end here */

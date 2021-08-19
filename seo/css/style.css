@@ -1,0 +1,1075 @@
+*{
+    padding:0;
+    margin:0;
+}
+/* common css start here */
+
+.common-heading-seo-design h2{
+    color:#151D41;
+    font-size:36px;
+    font-weight: 900;
+}
+.common-heading-seo-design h2 span{
+    color:#FF4030;
+}
+.common-heading-seo-design p{
+    color:#151D41;
+    font-size:16px;
+    margin-top:20px;
+}
+
+.common-services-sec{
+    margin-top:70px;
+}
+.common-services-first-col .common-img{
+    width:100%;
+    margin-top:60px;
+}
+
+.common-services-second-col .single-security {
+    position: relative;
+    z-index: 1;
+    background-color: #FFF;
+    padding: 30px;
+    margin-bottom: 30px;
+    transition: all 0.5s;
+    min-height: 360px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 5px 10px #00000033;
+}
+.single-security  h5{
+    text-align: center;
+    font-size: 20px;
+}
+.common-services-second-col .digital-market-common{
+    min-height: 200px;
+}
+.common-services-second-col .single-security:hover {
+    color:#FFFFFF;
+}
+.common-services-second-col .text-left {
+    text-align: left!important;
+}
+.common-services-second-col .single-security::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 0;
+    height: 100%;
+    background-image: linear-gradient(to bottom right, #FF4030, #FF4030);
+    transition: all 0.5s;
+    z-index: -1;
+}
+.common-services-second-col .single-features::after, .single-security i, .complete-content .single-security::before, .cybersecurity-content ul li::before, .manual-content ul li::before, .transform-content .skill-bar .progress-content, .performance-area .owl-theme .owl-dots .owl-dot.active span, .single-team .image::before, .video-btn, .video-btn::after, .video-btn::before, .single-solutions::after {
+    /* background-image: linear-gradient(to bottom right, #d2044d, #ff5e68); */
+}
+.common-services-second-col .single-security:hover {
+    -webkit-transform: translateY(-5px);
+    transform: translateY(-5px);
+}
+
+.common-services-second-col .single-security:hover::before {
+    width: 100%;
+    left: 0;
+    right: auto;
+}
+
+.common-services-second-col a, .read-more, .read-more:hover, .read-more:hover i, .header-area .top-header-area .header-content-left li:hover a, .header-area .top-header-area .header-content-left li:hover a i, .header-area .top-header-area .header-content-right li:hover a, .header-area .top-header-area .header-content-right li:hover a i, .nav-area .navbar-area .main-nav nav .navbar-nav .nav-item a:hover, .nav-area .navbar-area .main-nav nav .navbar-nav .nav-item .dropdown-menu li a:hover, .nav-area.nav-area-three .navbar-area .main-nav .others-option .call-us a i, .banner-area.banner-area-three .follow-us ul li a i:hover, .features-area .single-features:hover h3, .features-area .single-features:hover h3 i, .single-features h3, .single-features h3 i, .approach-content ul li i, .electronic-content .electronic-tab-wrap .electronic-tab .tabs .current a, .complete-content .single-security:hover i, .single-client .quotes, .single-client ul li i, .client-img span, .cybersecurity-content ul li i, .single-blog:hover span, .footer-bottom-area .copy-right p a:hover, .footer-bottom-area .condition-privacy ul li a:hover, .manual-content ul li i, .single-counter i, .single-counter p, .single-pricing h1, .single-pricing ul li i, .transform-content .skill-bar .down-arrow, .page-title-area .page-title-content ul li a:hover, .page-title-area .page-title-content ul .active, .single-team .content span, .user-area-all-style .contact-form-action form .form-condition .agree-label a, .user-area-all-style .contact-form-action .account-desc a, .user-area-all-style .contact-form-action .forget, .user-area-all-style .contact-form-action .now-register a, .user-area-all-style .contact-form-action .now-log-in, .services-details-info .services-contact-info ul li a:hover, .services-details-info .services-contact-info ul li .icon, .video-btn, .section-title span, .page-navigation-area .page-link, .services-details-info .download-file ul li a:hover, .performance-area .single-security span i, .single-security:hover i, .section-title-six span, .header-area-six .top-header-area .header-content-left li i, .header-area-six .top-header-area .header-content-left li:hover a, .header-area-six .top-header-area .header-content-left li:hover a i, .header-area-six .top-header-area .header-content-right .language-area .language-item-top .language-bar i, .header-area-six .top-header-area .header-content-right .language-area .language-item-top .language-item-bottom .language-item .language-link:hover, .header-area-six .top-header-area .header-content-right .log-in-sign-up li i, .header-area-six .top-header-area .header-content-right .log-in-sign-up li a:hover, .nav-area-six .navbar-area .main-nav nav .navbar-nav .nav-item a:hover, .nav-area-six .navbar-area .main-nav nav .navbar-nav .nav-item .dropdown-menu li a:hover, .nav-area-six .others-option .option-item .search-btn:hover, .nav-area-six .others-option .option-item .close-btn.active, .nav-area-six .others-option .cart-icon .cart i:hover, .nav-area-six .others-option .sidebar-menu .burger-menu, .banner-area-six .banner-text .default-btn.active i, .services-content .services-tab-wrap .services-tab .tabs .current, .single-serve i, .single-counters i, .single-counters h2, .testimonials-item .testimonials-view span, .video-img-six .video-btn i, .single-blog-post-area .blog-content-area ul li i, .single-blog-post-area:hover h3 a, .footer-area .single-footer-widget .address li a:hover, .footer-area .single-footer-widget .address li i, .footer-area .single-footer-widget ul li:hover a, .copy-right-area p a, .copy-right-area .footer-menu li a:hover {
+    color: #FF4030;
+}
+
+.common-services-second-col .single-security:hover i {
+   background-image: linear-gradient(to bottom right, #ffffff, #ffffff);
+}
+.common-services-second-col .single-security:hover i ,.single-security.img-quality:hover{
+   transform: rotateY(360deg);
+}
+.common-services-second-col .single-features::after, .single-security i, .complete-content .single-security::before, .cybersecurity-content ul li::before, .manual-content ul li::before, .transform-content .skill-bar .progress-content, .performance-area .owl-theme .owl-dots .owl-dot.active span, .single-team .image::before, .video-btn, .video-btn::after, .video-btn::before, .single-solutions::after {
+    /* background-image: linear-gradient(to bottom right, #d2044d, #ff5e68); */
+}
+.single-security i {
+    transition: all 0.5s;
+}
+.single-security i {
+    font-size: 30px;
+    color: #ffffff;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    background-color:#151D41;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    transition: all 0.5s;
+}
+.img-quality{
+    width:50px;
+}
+
+/* common css end here */
+/* banner-sec css style start here */
+.banner-sec{
+    margin-top:50px;
+    margin-bottom: 50px;
+}
+.banner-first-col h1{
+    font-size:56px;
+    color:#151D41;
+    font-weight: 900;
+}
+.banner-first-col h1 span{
+    color:#FF4030;
+}
+.banner-first-col p{
+    color:#151D41;
+    font-size:16px;
+}
+
+.banner-second-col .banner-img{
+    width:100%;
+}
+
+.banner-first-col .seo-banner-btn {
+    display: inline-block;
+    padding: 15px 20px;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+    background:#FF4030; 
+    background: linear-gradient(to left, #FF4030 50%, #151D41 50%) right;
+    background-size: 200%;
+    transition: .5s ease-out;
+    margin-top:24px;
+  }
+  .banner-first-col .seo-banner-btn, .banner-first-col .seo-banner-btn:active{
+    border:none !important;
+    outline:none !important;
+  }
+  button, button:focus{
+      border:none;
+      outline:none;
+  }
+  .banner-first-col .seo-banner-btn:hover {
+    background-position: left;
+  }
+/* banner-sec css style end here */
+/* digital marketing services css start here */
+.digital-marketing-services-sec {
+    background-color: #f5f6f8;
+    padding: 70px 0;
+}
+.digital-marketing-services-sec  .digital-marketing-common-col{
+    padding:20px;
+    box-shadow: 0px 5px 90px #00000033;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top:30px;
+    border-bottom: 3px solid #FF4030;
+    text-align: center;
+    color: #FFFFFF;
+    background: linear-gradient(to left,   #151D41 50%,#FF4030 50%) right;
+    background-size: 200%;
+    transition: .5s ease-out;
+
+}
+
+.digital-marketing-services-sec  .digital-marketing-common-col:hover{
+    background-color:#151D41;
+    background-position: left;
+
+}
+.digital-marketing-common-col .common-digital-icon-img{
+    width:60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.digital-marketing-common-col h5{
+    font-size: 20px;
+    text-align: center;
+
+}
+/* digital marketing services css end here */
+
+/* local seo sercices css style start here */
+.local-seo-service-sec{
+    margin-top:70px;
+    margin-bottom: 100px;
+    background-color: #f5f6f8;
+    padding:50px 0 450px 0;
+}
+.local-seo-service-sec .local-wrap{
+    padding:100px;
+    position: relative;
+    display:flex;
+    justify-content: center;
+}
+
+.local-wrap .local-seo-service-wrap-1{
+    position: absolute;
+}
+.circle-yellow .circle-1-img{
+    width:100%;
+}
+.circle-skyblue .circle-1-img{
+    width:100%;
+}
+.circle-1-red .circle-1-img{
+    width:100%;
+}
+.circle-1-pink .circle-1-img{
+    width:100%;
+}
+.circle-1-light-blue .circle-1-img{
+    width:100%;
+}
+.circle-1-light-green .circle-1-img{
+    width:100%;
+}
+.circle-2-yellow .circle-yellow{
+    width:70px;
+    height:70px;
+    background-color: transparent;
+    border-radius: 100%;
+    border:3px solid #ffc400;
+    padding:15px;
+    position: absolute;
+    top:0;
+    left:0;
+}
+.cicle-yellow-3 .circle-2-yellow{
+    padding:10px;
+    border:10px solid #ffe876;
+    border-radius: 100%;
+    height:90px;
+    width:90px;
+    position: absolute;
+    top:0;
+    left:0;
+}
+.cicle-4-dash-dot-yellow .cicle-yellow-3{
+    padding:10px;
+    border:10px solid #ffc400;
+    border-radius: 100%;
+    height:110px;
+    width:110px;
+    position: absolute;
+    top:8px;
+    left:8px;
+}
+.cicle-4-dash-dot-yellow .cicle-yellow-3:hover{
+    transform: scale(1.2);
+
+}
+.all-circle-wrap .cicle-4-dash-dot-yellow{
+    padding:10px;
+    border:2px dotted #ffc400;
+    border-radius: 100%;
+    height:130px;
+    width:130px;
+    position: absolute;
+    top:0;
+    left:0;
+}
+/* sky blue circle */
+.circle-2-blue-skyblue .circle-1-skyblue{
+    width:70px;
+    height:70px;
+    background-color: transparent;
+    border-radius: 100%;
+    border:3px solid #00d9be;
+    padding:15px;
+    position: absolute;
+    top:0;
+    left:0;
+}
+.cicle-skyblue-3 .circle-2-blue-skyblue{
+    padding:10px;
+    border:10px solid #43c0a7;
+    border-radius: 100%;
+    height:90px;
+    width:90px;
+    position: absolute;
+    top:0;
+    left:0;
+}
+.cicle-4-dash-dot-skyblue .cicle-skyblue-3{
+    padding:10px;
+    border:10px solid #00d9be;
+    border-radius: 100%;
+    height:110px;
+    width:110px;
+    position: absolute;
+    top:8px;
+    left:8px;
+}
+.cicle-4-dash-dot-skyblue .cicle-skyblue-3:hover{
+    transform: scale(1.2);
+
+}
+.all-circle-wrap  .cicle-4-dash-dot-skyblue{
+    padding:10px;
+    border:2px dotted #00d9be;
+    border-radius: 100%;
+    height:130px;
+    width:130px;
+    position: absolute;
+    top:0;
+    left:0;
+}
+/* circle red  */
+.circle-2-red .circle-1-red{
+    width:70px;
+    height:70px;
+    background-color: transparent;
+    border-radius: 100%;
+    border:3px solid #ff4a69;
+    padding:15px;
+    position: absolute;
+    top:0;
+    left:0;
+}
+.cicle-red-3 .circle-2-red{
+    padding:10px;
+    border:10px solid #ffa6c7;
+    border-radius: 100%;
+    height:90px;
+    width:90px;
+    position: absolute;
+    top:0;
+    left:0;
+}
+.cicle-4-dash-dot-red .cicle-red-3{
+    padding:10px;
+    border:10px solid#ff4a69be;
+    border-radius: 100%;
+    height:110px;
+    width:110px;
+    position: absolute;
+    top:8px;
+    left:8px;
+}
+.cicle-4-dash-dot-red .cicle-red-3:hover{
+    transform: scale(1.2);
+
+}
+.all-circle-wrap  .cicle-4-dash-dot-red{
+    padding:10px;
+    border:2px dotted #ff4a69be;
+    border-radius: 100%;
+    height:130px;
+    width:130px;
+    position: absolute;
+    top:0;
+    left:0;
+}
+/* pink circle */
+
+.circle-2-pink .circle-1-pink{
+    width:70px;
+    height:70px;
+    background-color: transparent;
+    border-radius: 100%;
+    border:3px solid #ff6fde;
+    padding:15px;
+    position: absolute;
+    top:0;
+    left:0;
+}
+.cicle-pink-3 .circle-2-pink{
+    padding:10px;
+    border:10px solid #ffa5e9;
+    border-radius: 100%;
+    height:90px;
+    width:90px;
+    position: absolute;
+    top:0;
+    left:0;
+}
+.cicle-4-dash-dot-pink .cicle-pink-3{
+    padding:10px;
+    border:10px solid #ff6fde;
+    border-radius: 100%;
+    height:110px;
+    width:110px;
+    position: absolute;
+    top:8px;
+    left:8px;
+}
+.cicle-4-dash-dot-pink .cicle-pink-3:hover{
+    transform: scale(1.2);
+
+}
+.all-circle-wrap  .cicle-4-dash-dot-pink{
+    padding:10px;
+    border:2px dotted #ff6fde69;
+    border-radius: 100%;
+    height:130px;
+    width:130px;
+    position: absolute;
+    top:0;
+    left:0;
+}
+/* blue-light circle*/
+
+.circle-2-light-blue .circle-1-light-blue{
+    width:70px;
+    height:70px;
+    background-color: transparent;
+    border-radius: 100%;
+    border:3px solid #57e3ff;
+    padding:15px;
+    position: absolute;
+    top:0;
+    left:0;
+}
+.cicle-light-blue-3 .circle-2-light-blue{
+    padding:10px;
+    border:10px solid #00cfff;
+    border-radius: 100%;
+    height:90px;
+    width:90px;
+    position: absolute;
+    top:0;
+    left:0;
+}
+.cicle-4-dash-dot-light-blue .cicle-light-blue-3{
+    padding:10px;
+    border:10px solid #57e3ff;
+    border-radius: 100%;
+    height:110px;
+    width:110px;
+    position: absolute;
+    top:8px;
+    left:8px;
+}
+.cicle-4-dash-dot-light-blue .cicle-light-blue-3:hover{
+    transform: scale(1.2);
+
+}
+.all-circle-wrap  .cicle-4-dash-dot-light-blue{
+    padding:10px;
+    border:2px dotted #00cfff;
+    border-radius: 100%;
+    height:130px;
+    width:130px;
+    position: absolute;
+    top:0;
+    left:0;
+}
+/* green light circle  */
+
+.circle-2-green .circle-1-light-green{
+    width:70px;
+    height:70px;
+    background-color: transparent;
+    border-radius: 100%;
+    border:3px solid #97da00;
+    padding:15px;
+    position: absolute;
+    top:0;
+    left:0;
+}
+.cicle-green-3 .circle-2-green{
+    padding:10px;
+    border:10px solid #aee632;
+    border-radius: 100%;
+    height:90px;
+    width:90px;
+    position: absolute;
+    top:0;
+    left:0;
+}
+.cicle-4-dash-dot-green .cicle-green-3{
+    padding:10px;
+    border:10px solid #97da00;
+    border-radius: 100%;
+    height:110px;
+    width:110px;
+    position: absolute;
+    top:8px;
+    left:8px;
+}
+.cicle-4-dash-dot-green .cicle-green-3:hover{
+    transform: scale(1.2);
+
+}
+.all-circle-wrap  .cicle-4-dash-dot-green{
+    padding:10px;
+    border:2px dotted #aee632;
+    border-radius: 100%;
+    height:130px;
+    width:130px;
+    position: absolute;
+    top:0;
+    left:0;
+}
+.local-wrap .local-seo-service-wrap-1{
+    position: absolute;
+    top:176px;
+    left:0px;
+    width:400px;
+    height:200px;
+    display: flex;
+    justify-content: space-between;
+}
+.local-wrap .local-seo-service-wrap-2{
+    position: absolute;
+    top:335px;
+    left:54px;
+    width:400px;
+    height:200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.local-wrap .local-seo-service-wrap-3{
+    position: absolute;
+    top:470px;
+    left:250px;
+    width:400px;
+    height:200px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.local-wrap .local-seo-service-wrap-4{
+    position: absolute;
+    top: 471px;
+    left:691px;
+    width:400px;
+    height:200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.local-wrap .local-seo-service-wrap-5{
+    position: absolute;
+    top: 340px;
+    left: 860px;
+    width:400px;
+    height:200px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.local-wrap .local-seo-service-wrap-6{
+    position: absolute;
+    top: 176px;
+    left: 892px;
+    width:400px;
+    height:200px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.all-circle-wrap{
+    position:absolute;
+    left:215px;
+}
+.local-content {
+    width: 50%;
+}
+
+.all-circle-wrap-right{
+    position:absolute;
+    left:0px;
+}
+.local-content-right {
+    width: 50%;
+    margin-left:160px;
+}
+.local-content h5,.local-content-right h5{
+    font-size:20px;
+    font-weight: bold;
+}
+.local-content p , .local-content-right p{
+    font-size: 14px !important;
+    color:#646464;
+}
+
+.local-middle-grey-circle{
+    background-color:  #e8e8e8 ;
+    position: absolute;
+    top:18%;
+    left:35%;
+    border-radius: 100%;
+    width:350px;
+    height:350px;
+}
+.half-circle {
+    width: 434px;
+    height: 230px;
+    border-top-left-radius: 300px;
+    border-top-right-radius: 300px;
+    border: 10px solid #d0cfcf;
+    border-bottom: 0;
+    transform: rotate(180deg);
+    box-sizing: border-box;
+    position: absolute;
+    top: 95%;
+    left: 409px;
+}
+.local-middle-grey-circle h3 {
+    color: #747475;
+    display: flex;
+    text-align: center;
+    font-size: 28px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 156px;
+    flex-direction: column;
+}
+
+.local-wrap .small-circle-wrap {
+    position: absolute;
+    left:393px;
+    top: 180px;
+}
+
+.local-wrap .small-circle-wrap-2 {
+    position: absolute;
+    left: 437px;
+    top: 312px;
+}
+.local-wrap .small-circle-wrap-3{
+    position: absolute;
+    left: 543px;
+    top: 383px;
+}
+.local-wrap .small-circle-wrap-4{
+    position: absolute;
+    left: 688px;
+    top: 378px;
+}
+.local-wrap .small-circle-wrap-5{
+    position: absolute;
+    left: 784px;
+    top: 297px;
+}
+.local-wrap .small-circle-wrap-6{
+    position: absolute;
+    left: 818px;
+    top: 173px;
+}
+.circle-sm-2 .circle-sm-1{
+    border-radius:100%;
+    border:5px solid #ffc400;
+}
+.circle-sm-3 .circle-sm-2{
+    border-radius:100%;
+    border:5px solid #ffffff;
+}
+.circle-sm-4 .circle-sm-3{
+    border-radius:100%;
+    border:5px solid #ffe876;
+}
+.small-circle-wrap .circle-sm-4{
+    border-radius:100%;
+    border:5px solid #ffc400;
+}
+
+
+.circle-sm-2-skyblue .circle-sm-1-skyblue{
+    border-radius:100%;
+    border:5px solid #00d9be;
+}
+.circle-sm-3-skyblue .circle-sm-2-skyblue{
+    border-radius:100%;
+    border:5px solid #ffffff;
+}
+.circle-sm-4-skyblue .circle-sm-3-skyblue{
+    border-radius:100%;
+    border:5px solid #43c0a7;
+}
+.small-circle-wrap-2 .circle-sm-4-skyblue{
+    border-radius:100%;
+    border:5px solid #00d9be;
+}
+
+
+.circle-sm-2-red .circle-sm-1-red{
+    border-radius:100%;
+    border:5px solid #ff4a69be;
+}
+.circle-sm-3-red .circle-sm-2-red{
+    border-radius:100%;
+    border:5px solid #ffffff;
+}
+.circle-sm-4-red .circle-sm-3-red{
+    border-radius:100%;
+    border:5px solid #ffa6c7;
+}
+.small-circle-wrap-3 .circle-sm-4-red{
+    border-radius:100%;
+    border:5px solid #ff4a69be;
+}
+
+
+.circle-sm-2-pink .circle-sm-1-pink{
+    border-radius:100%;
+    border:5px solid #ff6fde;
+}
+.circle-sm-3-pink .circle-sm-2-pink{
+    border-radius:100%;
+    border:5px solid #ffffff;
+}
+.circle-sm-4-pink .circle-sm-3-pink{
+    border-radius:100%;
+    border:5px solid #ffa5e9;
+}
+.small-circle-wrap-4 .circle-sm-4-pink{
+    border-radius:100%;
+    border:5px solid #ff6fde;
+}
+
+
+.circle-sm-2-blue-light .circle-sm-1-blue-light{
+    border-radius:100%;
+    border:5px solid #00cfff;
+}
+.circle-sm-3-blue-light .circle-sm-2-blue-light{
+    border-radius:100%;
+    border:5px solid #ffffff;
+}
+.circle-sm-4-blue-light .circle-sm-3-blue-light{
+    border-radius:100%;
+    border:5px solid #57e3ff;
+}
+.small-circle-wrap-5 .circle-sm-4-blue-light{
+    border-radius:100%;
+    border:5px solid #00cfff;
+}
+
+
+.circle-sm-2-green .circle-sm-1-green{
+    border-radius:100%;
+    border:5px solid #aee632;
+}
+.circle-sm-3-green .circle-sm-2-green{
+    border-radius:100%;
+    border:5px solid #ffffff;
+}
+.circle-sm-4-green .circle-sm-3-green{
+    border-radius:100%;
+    border:5px solid #97da00;
+}
+.small-circle-wrap-6 .circle-sm-4-green{
+    border-radius:100%;
+    border:5px solid #aee632;
+}
+
+
+/* local seo sercices css style end here */
+
+
+/* smo-services-sec css style start here */
+
+.smo-sercice-sec .smo-dir-change{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.smo-sercice-sec{
+    margin-top:40px;
+}
+
+/* smo-services-sec css style end here */
+.seo-service-sec .seo-services-first-col{
+    background-image: url("../images/png/header-bg-half.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 110% 100%;
+}
+.common-services-sec  .common-services-first-col{
+    background-image: url(../images/png/header-bg-half.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: 110% 48%;
+}
+/* contect sec css start here */
+    .contect-sec{
+        margin-top:70px;
+        padding:70px 0;
+        background-image: url('../images/jpeg/galaxy-bg.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .contect-common-col  .contect-form-control, .contect-common-col .contect-form-control:focus{
+        border:none;
+        outline:none;
+        color:#FF4030;
+        background-color: #FFFFFF;
+        border:1px solid #151D41;
+        outline: 0;
+        box-shadow:none;
+        height:50px;
+        width:60%;
+        }
+        .contect-sec .contect-common-col{
+            margin:20px 20% 0 20%;
+            display: flex;
+            flex-direction: row;
+        }
+        .contect-common-col .contect-second-form-control{
+            margin-left: 30px;
+        }
+        .contect-sec-heading h2{
+            color:#FFFFFF;
+            font-size: 36px;
+            font-weight: 900;
+        }
+
+        .contect-sec-heading h2 span{
+            color:#FF4030;
+        }
+        
+.contect-sec .seo-contact-btn {
+    display: inline-block;
+    padding: 15px 20px;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+    background:#FF4030; 
+    background: linear-gradient(to left, #FF4030 50%, #151D41 50%) right;
+    background-size: 200%;
+    transition: .5s ease-out;
+    margin-top:24px;
+  }
+.contect-sec  .seo-contact-btn, .contect-sec .seo-contact-btn:active{
+    border:none !important;
+    outline:none !important;
+  }
+.contect-sec .seo-contact-btn:hover {
+    background-position: left;
+  }
+
+/* contect sec css end here */
+/* media query start here */
+@media screen and (max-width:1400px){
+    .single-security {
+        min-height: 430px;
+    }
+    .banner-sec  .digital-market-common {
+        min-height: 200px;
+    }
+}
+@media screen and (max-width:1199px){
+    .banner-first-col h1 {
+        font-size: 50px;
+      }
+    .banner-first-col .seo-banner-btn, .banner-first-col .seo-banner-btn:focus {
+        margin-top: 25px;
+     }   .banner-second-col .banner-img {
+        margin-top: 70px;
+    }
+    .single-security h5{
+        font-size: 20px;
+    }
+    .single-security p{
+        font-size:15px;
+    }
+    .common-services-second-col .single-security {
+       padding: 0 20px;
+    }
+}
+@media screen and (max-width:991px){
+    .banner-first-col h1 {
+        font-size: 40px;
+    }
+    .banner-first-col p {
+        color: #151D41;
+        font-size: 13px;
+    }
+    .banner-first-col .seo-banner-btn, .banner-first-col .seo-banner-btn:focus {
+        font-size: 18px;
+        padding: 15px 30px;
+    }
+    .common-heading-seo-design h2 {
+        font-size: 28px;
+     }
+     .common-heading-seo-design p {
+        font-size: 13px;
+    }
+    .digital-marketing-common-col h5{
+        font-size: 16px;
+        text-align: center;
+    }
+    .banner-sec .single-security {
+        min-height: 260px;
+    }
+    .banner-sec .digital-market-common {
+        min-height: 182px;
+    }
+    .single-security h5 {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .common-services-second-col  .single-security {
+        padding: 20 20px;
+     }
+}
+
+
+
+@media screen and (max-width:768px){
+    .banner-first-col h1 {
+        font-size: 25px;
+    }
+    .banner-first-col .seo-banner-btn, .banner-first-col .seo-banner-btn:focus {
+        font-size: 15px;
+        padding: 10px 15px;
+        margin-top:0;
+    }
+    .common-heading-seo-design h2 {
+        font-size: 23px;
+    }    
+    .banner-first-col .seo-banner-btn, .banner-first-col .seo-banner-btn:focus {
+        font-size: 13px;
+        padding: 7px 10px;
+        margin-top: 0;
+    }
+    .digital-marketing-services-sec {
+        padding: 20px 0 0 0;
+    }    
+    .common-services-sec {
+        margin-top: 20px;
+    }
+    .local-seo-service-sec {
+        margin-bottom:40px;
+      }
+      .contect-sec {
+        margin-top: 0;
+        padding: 40px 0;
+    }    
+    .common-services-second-col .single-security {
+        min-height: 310px;
+    }
+    .common-services-second-col  .digital-market-common {
+        min-height: 182px;
+    }
+    .contect-common-col .contect-form-control, .contect-form-control:focus {
+        width: 100%;
+    }
+    .contect-sec-heading h2 {
+        font-size: 23px;
+    }
+    .contect-sec .contect-common-col {
+        margin: 20px 0 0 0;
+     }
+     .banner-sec {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .common-services-sec .common-services-first-col {
+        background-image: none;
+     }    
+     .common-services-first-col .common-img {
+        margin:0 0 15px 0;
+    }
+    .contect-sec .seo-contact-btn {
+        padding: 10px 20px;
+    }
+}
+@media screen and (max-width:576px){
+    .banner-sec .banner-first-col {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .banner-sec {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .banner-second-col .banner-img {
+        margin-top: 15px;
+    }
+    .common-heading-seo-design h2 {
+        font-size: 20px;
+    }
+    .digital-marketing-services-sec {
+        padding:0  0;
+    }
+    .digital-marketing-services-sec .digital-marketing-common-col {
+        margin-top: 20px;
+      }
+      .digital-marketing-common-col .common-digital-icon-img {
+        width: 35px;
+        margin-bottom: 10px;
+    }
+    .common-services-second-col .digital-market-common {
+        min-height: 124px !important;
+    }
+    .digital-marketing-common-col h5 {
+        font-size: 14px;
+        text-align: center;
+    }
+    .common-services-second-col .single-security {
+        margin-top: 20px;
+        margin-bottom: 0;
+        min-height: 200px;
+        padding: 10px 5px;
+         }  
+     .single-security i {
+        width: 35px;
+        height: 35px;
+        line-height:35px;
+     }
+     .contect-sec .contect-common-col {
+        margin: 0 0 0 0;
+        flex-direction: column;
+    }
+    .contect-second-form-control {
+        margin-left:0px;
+        margin-top:20px; 
+    }
+    .contect-common-col .contect-form-control, .contect-form-control:focus {
+        width: 100%;
+        height: 40px;
+         }
+    .contect-sec-heading h2 {
+        font-size: 20px;
+    }
+    .contect-sec {
+        margin-top:20px;
+        padding: 20px 0;
+    }
+    .contect-btn {
+        padding: 10px 20px;
+        margin-top: 20px;
+        font-size: 16px;
+    }
+    .common-services-sec {
+        margin-top:15px;
+    }
+    .common-heading-seo-design p {
+        margin:10px 0 0 0;
+    }
+    .contect-common-col .contect-second-form-control {
+        margin-left: 0px;
+    }
+    .common-services-sec .common-services-first-col {
+        background-image:none;
+    }
+    .common-services-first-col .common-img {
+        margin:0 0 0 0;
+    }
+    .single-security p {
+        font-size: 13px;
+    }
+    .contect-sec .seo-contact-btn {
+        padding: 7px 15px;
+        font-size: 15px;
+    }
+}
+/* media query end here */
