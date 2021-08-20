@@ -110,7 +110,7 @@ ul{
 .link-wrap .month-link {
   padding: 10px 20px;
   background-color: #FF4030;
-  border-radius: 40px 40px 40px 40px;
+  border-radius:4px;
   color: #FFF;
 }
 .link-wrap .month-link:hover{
@@ -195,6 +195,9 @@ ul{
   margin-left:15px;
   font-size: 14px;
 }
+.share-wrap .share-heading {
+  margin-top:4px;
+}
 .social-fa-wrap .fa:hover{
   color:#FF4030;
 }
@@ -241,13 +244,13 @@ ul{
 .related-common-col .overlay-wrap {
   position: relative;
   width: 100%;
-  border-radius:10px;
+  border-radius:4px;
 }
 .overlay-wrap .image-common{
   display: block;
   width: 100%;
   height: auto;
-  border-radius: 10px;
+  border-radius: 4px;
 }
 
 .overlay-wrap .overlay {
@@ -260,7 +263,7 @@ ul{
   width: 100%;
   height: 0;
   transition: .5s ease;
-  border-radius: 10px;
+  border-radius:4px;
 }
 .related-common-col .overlay-wrap:hover .overlay {
   height: 100%;
@@ -311,7 +314,7 @@ ul{
 }
 .post-wrap .post-common-img{
   width:100%;
-  border-radius: 5px;
+  border-radius:4px;
 }
 .post-wrap .post-content-wrap{
   margin-left:20px;
@@ -384,8 +387,8 @@ ul{
   margin-top:60px;
   padding:0 20px  20px 20px;
   background-color: #f4f6f8;
-  border-radius: 10px;
-  box-shadow: 0 5px 10px  rgb(21 29 65);
+  border-radius: 4px;
+  box-shadow: 0 5px 10px rgb(21 29 65 / 26%);
 }
 .left-side .tag-wrap{
   margin-top:63px;
@@ -404,3 +407,279 @@ ul{
   color:#FF4030;
 }
 /* blog list section css end here */
+
+/* media query start here  */
+@media screen and (max-width:1400px){
+  .bolg-list-sec .left-side {
+    margin-top: 0;
+}
+.bolg-list-sec .right-side {
+  margin-top: 0;
+}
+.recent-post,.right-side .contect-wrap {
+  margin-top: 50px;
+}
+}
+@media screen and (max-width:1199px){
+  .related-heading h2 {
+    font-size: 30px;
+}
+.realted-wrap {
+  margin-top: 30px;
+}
+.right-side .popular-post-wrap {
+  margin-top: 30px;
+}
+.popular-post-wrap .post-wrap {
+  margin-top: 50px;
+}
+.post-content-wrap h6 a {
+  font-size: 16px;
+}
+.post-wrap .post-img-wrap {
+  width: 100px;
+}
+.post-content-wrap p {
+  font-size: 14px;
+}
+.popular-post-wrap  hr{
+  margin:0;
+}
+.recent-post {
+  margin-top: 20px;
+}
+.recent-post ul {
+  margin-top: 40px;
+}
+.recent-post ul li a {
+  font-size: 16px;
+}
+.right-side .contect-wrap {
+  margin-top: 30px;
+}
+.contact-second-col .form-wrap {
+  margin-top:50px;
+}
+.tag-wrap .tab-btn {
+  margin-top: 55px;
+}
+.recent-post h3 {
+  font-size: 21px;
+}
+.overlay-wrap .text {
+  font-size: 16px;
+}
+}
+@media screen and (max-width:991px){
+  .description-1 p ,.description-2 p{
+    font-size: 14px;
+}
+.link-wrap a {
+  color: #646464;
+  font-size: 14px;
+}
+.overlay-wrap .text {
+  font-size: 13px;
+}
+.left-side .tag-wrap {
+  margin-top: 40px;
+}
+.tab-btn a {
+  font-size: 15px;
+}
+.related-heading h2 {
+  font-size: 25px;
+}
+.related-heading h2::before {
+  top: 38px;
+}
+.related-common-col {
+  margin-top: 30px;
+}
+.input-wrap .form-control {
+  height: 40px;
+}
+.popular-post-wrap .post-wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.bolg-list-sec .right-side {
+  margin-left: 0;
+}
+.post-content-wrap  h6{
+  margin-top:10px;
+}
+.post-wrap-2{
+  margin-top: 20px !important;
+}
+.recent-post ul li a {
+  font-size: 14px;
+}
+.common-input-wrap .contact-form-control {
+  font-size: 14px;
+  height: 35px;
+}
+.banner-btn {
+  height: 35px;
+  font-size:14px;
+  width: 108px;
+}
+
+}
+@media screen and (max-width:767px){
+  .overlay-wrap .text {
+    font-size: 18px;
+}
+.about-us-sec h1 {
+  font-size: 30px;
+}
+.popular-post-wrap .post-wrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.popular-post-wrap  hr {
+  margin: 20px 0;
+}
+.common-input-wrap .contact-form-control {
+  font-size: 14px;
+  height: 50px;
+}
+.common-input-wrap .text-area {
+  height: 70px;
+}
+.recent-post {
+  margin-top: 40px;
+}
+.input-wrap .form-control {
+  height: 50px;
+}
+.bolg-list-sec .right-side {
+  margin-top: 30px;
+}
+}
+@media screen and (max-width:576px){
+  .about-us-sec h1 {
+    font-size: 25px;
+}
+.left-side .link-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.link-wrap .month-link {
+  padding: 4px 14px;
+}
+.link-wrap a {
+  color: #646464;
+  font-size: 13px;
+}
+.bolg-list-sec {
+  padding: 0px 10px 30px 10px;
+}
+.popular-post-wrap hr {
+margin: 10px 0;
+}
+.post-content-wrap h6 {
+margin-top: 0;
+}
+.bolg-list-sec .right-side {
+margin-left:0;
+}
+.input-wrap .form-control ,.common-input-wrap .contact-form-control {
+font-size: 14px;
+height:38px;
+}
+.common-input-wrap .text-area {
+height: 60px;
+}
+
+.tab-btn a {
+font-size: 13px;
+}
+.post-content-wrap h6 a {
+font-size: 15px;
+}
+
+.blog-wrap-col-second p {
+font-size: 13px;
+}
+.blog-wrap-col-second .common-btn-blog {
+padding: 2px 15px;
+}
+.bolg-list-sec .left-side {
+  margin-top: 30px;
+}
+.bolg-list-sec .left-side {
+  margin-top: 30px;
+}
+.description-1 p, .description-2 p {
+  font-size: 13px;
+  line-height: 20px;
+}
+.description-1 p {
+  margin-top: 20px;
+}
+.description-2 blockquote, .wp-block-quote.is-large, .wp-block-quote.is-style-large {
+  padding: 0 0 0 56px;
+}
+.description-2 blockquote:before {
+  left: 0px;
+  top: 48%;
+}
+.left-side .social-icons-wrap {
+  display: flex;
+  margin-top: 25px;
+  flex-direction: column;
+}
+.related-heading h2 {
+  font-size: 20px;
+}
+.related-heading h2 {
+  font-size: 20px;
+}
+.overlay-wrap .text {
+  font-size: 13px;
+}
+.recent-post h3 {
+  font-size: 20px;
+}
+.tab-btn a {
+  width: 70%;
+  margin-top: 10px;
+}
+.tag-wrap .tab-btn {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+}
+.recent-post h3::before {
+  top: 30px;
+}
+.related-heading h2::before {
+  top: 30px;
+  height:2px;
+}
+.contact-second-col .form-wrap {
+  margin-top: 40px;
+}
+.recent-post h3::before {
+  height: 2px;
+}
+.tab-btn a {
+  color: #FF4030;
+ }
+ .common-input-wrap .contact-form-control {
+  margin-top: 20px;
+}
+}
+
+@media screen and (max-width:340px){
+.link-wrap .month-link {
+ margin-right:10px;
+}
+}
+/* media query end here */

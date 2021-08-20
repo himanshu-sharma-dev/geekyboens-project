@@ -1,0 +1,129 @@
+
+  *{
+    margin:0px;
+    padding:0px;
+  }
+  /* common css */
+  ul{
+    margin:0;
+    padding:0;
+    list-style: none;
+  }
+  .color-white{
+    color:#FFF;
+  }
+  a{
+    list-style: none;
+  }
+
+  /* common css end here */
+
+/* about us section css start here */
+.about-us-sec{
+  background-color: #151D41;
+  padding:40px 0;
+}
+
+.about-us-sec h1{
+  font-size: 45px;
+  font-weight: 600;
+  text-align: center;
+  color:#FFF;
+}
+.breadcrumb-wrap{
+  display: flex;
+  justify-content: center;
+}
+.breadcrumb-wrap ol li a{
+  color:#FFF;
+  text-decoration: none;
+}
+
+/* about us section css end here */
+
+/* our services sec css start here */
+.our-services-sec{
+  padding:50px;
+  background-image:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/jpg/nature-bg-2.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  position:relative;
+}
+.our-services-sec::before{
+  content: "";
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    background: url(../images/png/cloud.png);
+    height: 279px;
+    z-index: 111;
+    background-size: cover;
+    margin-left: -399px;
+    /* margin-right: -89px; */
+    animation: mymove-new2 35s;
+    animation-iteration-count: infinite;
+    left: 100%;
+}
+
+@keyframes mymove-new2 {
+  from {left:100%;}
+  to {left:0;}
+}
+/* .our-services-sec::after {
+  content: "";
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  right: 0;
+  background: url(../img/cloudd.png);
+  margin-left: -399px;
+  margin-right: -89px;
+  height: 279px;
+  z-index: 111;
+  background-size: cover;
+  animation: mymove-new 35s;
+  animation-iteration-count: infinite;
+  left: 0px;
+}
+
+@keyframes mymove-new {
+  from {right: 0px;}
+  to {right: 100%;}
+} */
+.our-services-heading h2 a{
+  color:#FFF;
+  font-size: 40px;
+  text-align: center;
+  text-decoration: none;
+}
+.our-service-common-wrap{
+  padding:50px;
+  background-color:#f4f6f8;
+  text-align: center;
+  margin:50px 20px 0 20px;
+}
+.our-service-common-wrap .fa {
+  font-size: 50px;
+  background-color: #FFF;
+  padding: 9px;
+  border-radius: 52px;
+  height: 70px;
+  width: 70px;
+}
+.our-service-common-wrap h4{
+  color:#151D41;
+  font-size: 22px;
+  margin-top:30px
+}
+.our-service-common-wrap:hover{
+  background-color:#FF4030;
+}
+.our-service-common-wrap:hover h4{
+  color:#FFF;
+}
+.our-service-common-wrap:hover .fa{
+  color:#FF4030;
+}
+/* our services sec css end here */

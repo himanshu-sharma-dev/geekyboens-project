@@ -1,0 +1,142 @@
+<html>
+<head>
+  <title> Services</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">  
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="js/jquery-3-5-1.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+ </head>
+ <body>
+  <section class="about-us-sec container-fluid">
+    <div class="">
+             <div class="about-us-heading container">
+                 <h1> 
+                    Services
+                 </h1>
+                 <nav aria-label="breadcrumb" class="breadcrumb-wrap">
+                     <ol class="breadcrumb">
+                       <li class="breadcrumb-item"><a href="javascript:void(0)">Home</a></li>
+                       <li class="breadcrumb-item active" aria-current="page">
+                         Services</li>
+                     </ol>
+                   </nav>
+             </div>
+         </div>
+ </section> 
+
+ <section class="our-services-sec container-fluid">
+   <div class="container">
+   <div class="our-services-heading text-center">
+  <h2>
+    <a href="" class="typewrite" data-period="2000" data-type='[ "Our Services" ]'>
+      <span class="wrap"></span>
+    </a>
+  </h2>
+</div>
+<div class="row">
+  <div class="col-md-4">
+      <div class="our-service-common-wrap">
+        <i class="fa fa-mobile" aria-hidden="true"></i>
+        <h4>Mobile <br> Application</h4>
+      </div>
+  </div>
+  <div class="col-md-4">
+    <div class="our-service-common-wrap">
+      <i class="fa fa-code" aria-hidden="true"></i>
+      <h4>Web <br> Development</h4>
+    </div>
+</div>
+<div class="col-md-4">
+  <div class="our-service-common-wrap">
+    <i class="fa fa-mobile" aria-hidden="true"></i>
+    <h4> Software <br>QA    </h4>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="our-service-common-wrap">
+    <i class="fa fa-line-chart" aria-hidden="true"></i>
+    <h4> Digital <br> Marketing</h4>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="our-service-common-wrap">
+    <i class="fa fa-desktop" aria-hidden="true"></i>
+    <h4> Graphic <br> Designs</h4>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="our-service-common-wrap">
+    <i class="fa fa-laptop" aria-hidden="true"></i>
+    <h4> Web <br> Design</h4>
+  </div>
+</div>
+</div>
+</div>
+ </section>
+
+ <script>
+   var TxtType = function(el, toRotate, period) {
+        this.toRotate = toRotate;
+        this.el = el;
+        this.loopNum = 0;
+        this.period = parseInt(period, 10) || 2000;
+        this.txt = '';
+        this.tick();
+        this.isDeleting = false;
+    };
+
+    TxtType.prototype.tick = function() {
+        var i = this.loopNum % this.toRotate.length;
+        var fullTxt = this.toRotate[i];
+
+        if (this.isDeleting) {
+        this.txt = fullTxt.substring(0, this.txt.length - 1);
+        } else {
+        this.txt = fullTxt.substring(0, this.txt.length + 1);
+        }
+
+        this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
+
+        var that = this;
+        var delta = 200 - Math.random() * 100;
+
+        if (this.isDeleting) { delta /= 2; }
+
+        if (!this.isDeleting && this.txt === fullTxt) {
+        delta = this.period;
+        this.isDeleting = true;
+        } else if (this.isDeleting && this.txt === '') {
+        this.isDeleting = false;
+        this.loopNum++;
+        delta = 500;
+        }
+
+        setTimeout(function() {
+        that.tick();
+        }, delta);
+    };
+
+    window.onload = function() {
+        var elements = document.getElementsByClassName('typewrite');
+        for (var i=0; i<elements.length; i++) {
+            var toRotate = elements[i].getAttribute('data-type');
+            var period = elements[i].getAttribute('data-period');
+            if (toRotate) {
+              new TxtType(elements[i], JSON.parse(toRotate), period);
+            }
+        }
+        // INJECT CSS
+        var css = document.createElement("style");
+        css.type = "text/css";
+        css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
+        document.body.appendChild(css);
+    };
+
+
+Resources
+ </script>
+</body> 
+</html>

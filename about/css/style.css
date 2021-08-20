@@ -732,32 +732,6 @@ position:relative;
   left: -7px;
   bottom: -8px;
 }
-/* .common-link .dot-span {
-  position: absolute;
-  top: 87px;
-  left: -6px;
-  width: 10px;
-  height: 10px;
-  z-index: 99999;
-  background-color: #FFF;
-  border-radius: 100%;
-  border: 2px solid #646464;
-}
-.common-link .dot-span-2{
-  top:162px;
-}
-.common-link .dot-span-3{
-  top:236px;
-  
-}
-.common-link .dot-span-4{
-  top:310px;
-  
-}
-.common-link .dot-span-5{
-  top: 386px;
-  
-} */
 .vertical-tab .vertical{
   display: flex;
   flex-direction: column;
@@ -801,10 +775,7 @@ position:relative;
   border:none;
   outline:none;
 }
-.first-col .tabs-his-img {
-  width: 95%;
- 
-}
+
 .second-col h4{
   font-size: 25px;
   color:#151D41;
@@ -826,9 +797,19 @@ position:relative;
   width: 25px;
   margin: 40px 15px 0 0px;
 }
+.first-col .tabs-his-img{
+  width:100%;
+}
 /* histroy-sec css end here */
 
 /* media query start here */
+
+@media screen and (max-width:1800px){
+  .first-col .tabs-his-img {
+    padding-left: 120px;
+    
+}
+}
 @media screen and (max-width:1600px){
   .slich-pos .back-btn-service {
     left: -28%;
@@ -847,10 +828,7 @@ position:relative;
 .vertical-tab .style1 {
   left: -189px;
 }
-.first-col .tabs-his-img {
-  width: 85%;
-  margin-left: 75px;
-}
+
 }
 
 @media screen and (max-width:1400px){
@@ -1093,7 +1071,9 @@ position:relative;
 .tab-content .tab-content-wrap {
   margin-top: 22px;
 }
-
+.first-col .tabs-his-img {
+  padding-left: 70px;
+}
 }
 @media screen and (max-width:768px){
   .wrapper h2 {
@@ -1202,7 +1182,7 @@ position:relative;
 }
 .first-col .tabs-his-img {
   width: 100%;
-  margin-left: 0;
+  padding-left:0;
 }
 .tabs-div .nav-link {
   margin: 12px 4px;
@@ -1220,6 +1200,11 @@ position:relative;
 .second-col h6 {
   font-size: 16px;
 }
+.second-col {
+  margin-left: 0;
+}
+
+
 }
 @media screen and (max-width:576px){
   .about-us-sec h1 {
